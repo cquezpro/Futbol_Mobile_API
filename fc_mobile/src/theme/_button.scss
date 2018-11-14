@@ -1,0 +1,53 @@
+/* .button{
+  border-radius: 0px;
+}
+button.button-form,
+.button.button-form{
+  font-family: 'Roboto', sans-serif;
+  height: 56px;
+  border: solid 1px #ffffff;
+  background:rgba(color($colors, light),0.2);
+  line-height: 24px;
+  color: color($colors, light);
+  font-size: 20px;
+  border-radius: 8px;
+  //margin: 5px;
+  text-align: center;
+  &:hover{
+    cursor: pointer;
+    filter: brightness(95%);
+  }
+  &.button-orange{
+    background:color($colors, orange);
+    color:color($colors, white);
+  }
+  &.button-white{
+    background:color($colors, light);
+    color:color($colors, basic-font-color);
+  }
+  &.button-fb{
+    background:color($colors, fb-button);
+    border-color: color($colors, fb-button);
+    position: relative;
+    padding-left: 40px;
+    &:before{
+      content:'f';
+      position: absolute;
+      left:21px;
+      top: 15px;
+      font-size: 30px;
+      font-weight: 800;
+    }
+  }
+}
+.back-button{
+  color:#bbb;
+  z-index: 9999;
+}
+.button[icon-only] {
+  padding: 0;
+  min-width: .9em;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+} */

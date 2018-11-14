@@ -1,0 +1,114 @@
+<ion-card no-padding>
+    <!-- *ngIf="post" -->
+    <ion-card-header>
+        <ion-item text-wrap>
+            <ion-avatar item-start>
+                <img [src]="post.user.avatar ? post.user.avatar.avatar_path : 'assets/imgs/iconos/fc-group.svg'">
+            </ion-avatar>
+            <h2>{{post.user.full_name}}</h2>
+            <p>{{post.created_at}}</p>
+            <button ion-button item-end icon-start clear (click)="postOptions($event)">
+                <ion-icon name="more"></ion-icon>
+            </button>
+        </ion-item>
+    </ion-card-header>
+    <ion-card-content no-padding>
+        <div padding>
+            <p *ngIf="post.body" style="color:white" [hidden]="isEditing">{{post.body}}</p>
+            <div [hidden]="!isEditing">
+                <ion-item>
+                    <ion-textarea [(ngModel)]="post.body" class="text-area"></ion-textarea>
+                </ion-item>
+                <ion-row>
+                    <button ion-button icon-only (click)="editPost()" padding-left>
+                        Guardar 
+                        <ion-icon name="checkmark-circle"></ion-icon>
+                    </button>
+                    <button ion-button icon-only (click)="isEditing=false" padding-left>
+                        Cancelar 
+                        <ion-icon name="close-circle"></ion-icon>
+                    </button>
+                </ion-row>
+            </div>
+        </div>
+
+        <ion-grid no-padding>
+            <div *ngIf="post.images.length > 0">
+                <img [src]="post.images[0].path">
+            </div>
+            <ion-row no-margin>
+                <ion-col col-3 *ngFor="let image of post.images | slice:1; let i = index">
+                    <img [src]="image.path">
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+        <ion-grid no-padding>
+            <ion-row>
+                <ion-col col-3>
+                    <button ion-button clear small (click)="like()">
+                        <ion-icon name="thumbs-up" [color]="post.likes.iLiked ? 'primary' : ''"></ion-icon>
+                        <div>{{post.likes.total}} Likes</div>
+                    </button>
+                </ion-col>
+                <ion-col col-5>
+                    <button ion-button item-start clear small>
+                        <ion-icon name="text"> </ion-icon>
+                        <div>{{post.comments.length}} Comments</div>
+                    </button>
+                </ion-col>
+                <ion-col col-4>
+                    <button ion-button item-end clear small>
+                        <ion-icon name="ios-redo"></ion-icon>
+                        <div> Share</div>
+                    </button>
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+
+
+    </ion-card-content>
+    <ion-row padding-left>
+        <ion-col col-10>
+            <ion-item>
+                <ion-avatar item-start>
+                    <img [src]="user.avatar ? user.avatar.avatar_path : 'assets/imgs/iconos/fc-group.svg'">
+                </ion-avatar>
+                <ion-input type="text" (keyup.enter)="comment(commentText)" placeholder="Escribe un comentario..."
+                    [(ngModel)]="commentText"></ion-input>
+            </ion-item>
+        </ion-col>
+        <ion-col col-2>
+            <ion-item>
+                <button ion-button icon-only (click)="comment(commentText)" clear full>
+                    <ion-icon name="ios-send"></ion-icon>
+                </button>
+            </ion-item>
+        </ion-col>
+    </ion-row>
+
+    <ion-row *ngFor="let comment of post.comments; let i = index;">
+        <ion-item text-wrap padding-left>
+            <ion-avatar item-start>
+                <img [src]="comment.user.avatar ? comment.user.avatar.avatar_path : 'assets/imgs/iconos/fc-group.svg'">
+            </ion-avatar>
+            <h2>{{comment.user.full_name}}</h2>
+            <p [hidden]="comment.isEditing" class="wrapp_text">{{comment.body}}</p>
+            <div [hidden]="!comment.isEditing">
+                <ion-item>
+                    <ion-textarea [(ngModel)]="comment.body" class="white-text" rows="2"></ion-textarea>
+                </ion-item>
+                <ion-row>
+                    <button ion-button (click)="comment.save()">Guarda</button>
+                    <button ion-button icon-only (click)="comment.isEditing=false">
+                        <ion-icon name="close"></ion-icon>
+                    </button>
+                </ion-row>
+
+            </div>
+            <p>{{comment.updated_at_diff}}</p>
+            <button ion-button item-end icon-start clear (click)="commentOptions($event,comment,i)" [hidden]="!comment.isOwner">
+                <ion-icon name="more"></ion-icon>
+            </button>
+        </ion-item>
+    </ion-row>
+</ion-card>

@@ -1,0 +1,63 @@
+[
+	{
+		"description":"Pateo de balón",
+		"skill-profile":"player",
+		"staff-type":"1"
+	},
+	{
+		"description":"Velocidad",
+		"skill-profile":"player",
+		"staff-type":"1"
+	},
+	{
+		"description":"Pasar el balón",
+		"skill-profile":"player",
+		"staff-type":"1"
+	},
+	{
+		"description":"Fuerza",
+		"skill-profile":"player",
+		"staff-type":"1"
+	},
+	{
+		"description":"Coordinación",
+		"skill-profile":"player",
+		"staff-type":"1"
+	},
+	{
+		"description":"Destreza",
+		"skill-profile":"player",
+		"staff-type":"1"
+	},
+	{
+		"description":"Equilibrio",
+		"skill-profile":"player",
+		"staff-type":"1"
+	},
+	{
+		"description":"Regateo",
+		"skill-profile":"player",
+		"staff-type":"1"
+	},
+	{
+		"description":"Comunicación Asertiva",
+		"skill-profile":"staff",
+		"staff-type":"2"
+	},
+	{
+		"description":"Conocimientos de fubol",
+		"skill-profile":"staff",
+		"staff-type":"2"
+	},
+	{
+		"description":"Cercanía al jugador",
+		"skill-profile":"staff",
+		"staff-type":"2"
+	},
+	{
+		"description":"Habilidad para motivar",
+		"skill-profile":"staff",
+		"staff-type":"2"
+	}
+
+]

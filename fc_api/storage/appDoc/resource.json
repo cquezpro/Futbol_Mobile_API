@@ -1,0 +1,1 @@
+{"swagger":"2.0","info":{"description":"API for FutbolConnect Project","version":"1.0.0","title":"FutobolConnect API"},"host":"api.futbolconnect.san","basePath":"\/v1","tags":[{"name":"v1\/nationalities","description":"NationalityController"}]}

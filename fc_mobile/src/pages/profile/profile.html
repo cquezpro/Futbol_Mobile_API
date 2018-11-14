@@ -1,0 +1,128 @@
+<ion-content>
+	<ion-card class="tab-content2">
+		<div class="portada">
+			<ion-img (click)="openOptionsCover()" [src]="user.cover ? user.cover.cover_path : ''" class="img-portada"></ion-img>
+		</div>
+		<!--<div class="portada_edit">
+			<ion-note item-end>
+				<button ion-button icon-only>
+					<ion-icon name="create-outline"></ion-icon>
+				</button>
+			</ion-note>
+		</div>-->
+		<ion-item class="profile-date" no-padding>
+			<ion-grid no-padding>
+				<ion-row no-padding no-margin>
+					<ion-col col-4>
+						<ion-avatar (click)="openOptionsAvatar()">
+							<ion-img [src]="user.avatar ? user.avatar.avatar_path : 'assets/imgs/iconos/fc-group.svg'"></ion-img>
+						</ion-avatar>
+					</ion-col>
+
+					<ion-col col-8>
+						<div class="info-profile">
+							<h2>{{user.full_name}}</h2>
+							<p>{{ user.first_name }}</p>
+						</div>
+					</ion-col>
+				</ion-row>
+			</ion-grid>
+		</ion-item>
+
+		<div class="biografia-profile">
+			<p class="text-bio">
+				El ion-selectcomponente es similar a un elemento HTML , sin embargo, el componente de selección de
+			</p>
+		</div>
+	</ion-card>
+
+	<ion-card no-padding>
+		<div class="nav-profile">
+			<ion-row no-padding>
+				<ion-col col-3 class="content-btn">
+					<div class="btn-dentro">
+						<button ion-button class="btn-prueba" clear (click)="edit()">
+							<ion-icon name="md-create">
+								<br>
+								<p class="text-nav">Edit Profile</p>
+							</ion-icon>
+						</button>
+					</div>
+				</ion-col>
+
+				<ion-col col-3 class="content-btn">
+					<div class="btn-dentro">
+						<button ion-button class="btn-prueba" clear>
+							<ion-icon name="ios-people">
+								<br>
+								<p class="text-nav">amigos</p>
+							</ion-icon>
+						</button>
+					</div>
+				</ion-col>
+
+				<ion-col col-3 class="content-btn">
+					<div class="btn-dentro">
+						<button ion-button class="btn-prueba" clear>
+							<ion-icon name="logo-youtube" clear>
+								<br>
+								<p class="text-nav">Media</p>
+							</ion-icon>
+						</button>
+					</div>
+				</ion-col>
+
+				<ion-col col-3 class="content-btn">
+					<div class="btn-dentro">
+						<button ion-button class="btn-prueba" clear (click)="openMoreOptions()">
+							<ion-icon name="md-add-circle">
+								<br>
+								<p class="text-nav">Mas</p>
+							</ion-icon>
+						</button>
+					</div>
+				</ion-col>
+
+			</ion-row>
+		</div>
+		<div class="profile-info">
+			<ion-grid>
+
+				<h1 class="title-info">Informacion General</h1>
+				<ion-row>
+					<ion-col col-12>
+						<h2>Fan</h2>
+					</ion-col>
+				</ion-row>
+
+				<ion-row>
+					<ion-col col-12>
+						<h2 item-start>Fecha de nacimiento</h2>
+						<p item-end>{{user.generalInformation ? user.generalInformation.birthday : '-'}}</p>
+					</ion-col>
+				</ion-row>
+
+				<ion-row>
+					<ion-col col-12>
+						<h2>Fan de</h2>
+						<p>Manchester Junior Real</p>
+					</ion-col>
+				</ion-row>
+
+				<ion-row>
+					<ion-col col-12>
+						<h2>Colegio</h2>
+						<p>Idaho City Middle School</p>
+					</ion-col>
+				</ion-row>
+
+				<ion-row>
+					<ion-col col-12>
+						<h2>Universidad</h2>
+						<p>McGill University of Quebec</p>
+					</ion-col>
+				</ion-row>
+			</ion-grid>
+		</div>
+	</ion-card>
+</ion-content>

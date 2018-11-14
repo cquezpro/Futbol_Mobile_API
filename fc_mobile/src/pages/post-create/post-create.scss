@@ -1,0 +1,41 @@
+page-post-create {
+  .select-text {
+    display: block;
+    text-align: right;
+    //position: absolute;
+    //left: 35%;
+    z-index: 1;
+    top: 12px;
+    color: color($colors, white);
+  }
+  .input-wrapper .label.label {
+    flex: none;
+  }
+  .select .select-icon{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+  }
+  .select .button-inner{
+    background: rgba(39, 39, 39, .5);
+    border: none;
+    border-radius: 0px;
+    height: 35px;
+  }
+	ion-textarea{
+		padding: 10px;
+		color:white;
+	}
+}
+
+.agregar{
+  height: 50px;
+  .agregar-content{
+    
+    ion-icon{
+      margin-top: 5px;
+      font-size: 30px;
+      color: white;
+    }
+  }
+}

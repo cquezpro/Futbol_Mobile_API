@@ -1,0 +1,27 @@
+<ion-header>
+	<title-common [title]="''" [endIcon]="'close'" (click)="this.navCtrl.pop()"></title-common>
+</ion-header>
+<ion-content no-padding>
+	<ion-card>
+		<ion-item padding>
+			<ion-avatar item-start>
+				<ion-img [src]="user.avatar ? user.avatar.avatar_path : 'assets/imgs/iconos/fc-group.svg'"></ion-img>
+			</ion-avatar>
+			<h2>{{ user.full_name }} </h2>
+		</ion-item>
+		<ion-item>
+			<ion-textarea placeholder="Que estas pensando?" [(ngModel)]="text" style="color:white;"></ion-textarea>
+		</ion-item>
+		<ion-list>
+			<button ion-button full clear class="agregar">
+				<ion-item class="agregar-content">
+					<ion-avatar item-start>
+						<ion-icon name="images"></ion-icon>
+					</ion-avatar>
+					<h2>Subir Fotos</h2>
+				</ion-item>
+			</button>
+		</ion-list>
+		<button ion-button full (click)="publish()">Publicar</button>
+	</ion-card>
+</ion-content>

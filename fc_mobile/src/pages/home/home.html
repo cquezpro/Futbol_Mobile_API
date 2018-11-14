@@ -1,0 +1,75 @@
+<ion-content no-padding>
+    <picture class="bg-img">
+        <source media="(min-width: 650px)" srcset="assets/imgs/Back.png">
+        <source media="(min-width: 465px)" srcset="assets/imgs/Back.png">
+        <img src="assets/imgs/Back.png" alt="Flowers">
+    </picture>
+    <!--<div class="top-banner no-padding">
+      --<ion-slides pager (ionSlideWillChange)="slideChanged()">
+            <ion-slide >
+                <div class="slide__content">
+                    <div class='slide__image' >
+                        <img src="assets/imgs/landingPage/headline.png" >
+                    </div>
+                    <div class="overlay"></div>
+                    <div  class="slide__content__text">
+                        <img src="assets/imgs/fc-logo/logowo.png" alt="">
+                        <p>{{ "home_slide1_1" | translate}}
+                            <strong>{{ "app_name" | translate}}</strong>{{ "home_slide1_2" | translate}}</p>
+                    </div>
+                </div>
+            </ion-slide>
+            <ion-slide >
+                <div class="slide__content">
+                    <div class='slide__image'>
+                        <img src="assets/imgs/landingPage/coach.png">
+                    </div>
+                    <div class="overlay"></div>
+                    <div  class="slide__content__text">
+                        <img src="assets/imgs/fc-logo/logowo.png" alt="">
+                        <p>
+                            <strong>{{ "home_slide2_1" | translate}}</strong>{{ "home_slide2_2" | translate}}<strong>{{ "home_slide2_3" | translate}}</strong>{{ "home_slide2_4" | translate}}</p>
+                    </div>
+                </div>
+            </ion-slide>
+            <ion-slide >
+                <div class="slide__content">
+                    <div class='slide__image'>
+                        <img src="assets/imgs/landingPage/fan.png">
+                    </div>
+                    <div class="overlay"></div>
+                    <div class="slide__content__text">
+                        <img src="assets/imgs/fc-logo/logowo.png" alt="">
+                        <p>Siente la
+                            <strong>{{ "home_slide3_1" | translate}}</strong>{{ "home_slide3_2" | translate}}
+                            <strong>{{ "home_slide3_3" | translate}}</strong>
+                        </p>
+                    </div>
+                </div>
+            </ion-slide>
+        </ion-slides>
+  </div>-->
+
+</ion-content>
+<ion-footer no-padding>
+    <ion-grid no-padding>
+        <ion-row>
+            <ion-col col-sm-6 no-padding>
+                <button ion-button color="orange"  full navPush="LoginPage">
+                    {{ "home_login" | translate}}
+                </button>
+            </ion-col>
+            <ion-col col-sm-6 no-padding>
+                <button ion-button color="white" full navPush="RegisterPage" >
+                    {{ "home_register" | translate}}
+                </button>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+
+</ion-footer>
+
+
+
+
+

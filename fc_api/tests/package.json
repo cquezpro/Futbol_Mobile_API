@@ -1,0 +1,79 @@
+{
+  "userSender": {
+    "first_name": "Daniel",
+    "last_name": "Cifuentes",
+    "email": "dcifuentes@gmail.com",
+    "phone": "573154770382",
+    "provider": null,
+    "deleted_at": null,
+    "city_id": 0,
+    "full_name": "Daniel Cifuentes",
+    "has_preferences": true,
+    "hash_id": "40Rk9B8Ke2MPb3Q1VNvA",
+    "avatar": null,
+    "cover": null,
+    "followers": {
+      "total": 0,
+      "data": []
+    },
+    "followings": {
+      "total": 0,
+      "data": []
+    },
+    "generalInformation": {},
+    "technicalInformation": null,
+    "representative": null,
+    "speakLanguages": [],
+    "gamePositions": [],
+    "link": {
+      "user_show": "http:\/\/api.futbolconnect.san\/v1\/users\/40Rk9B8Ke2MPb3Q1VNvA"
+    }
+  },
+  "post": {
+    "id": 10,
+    "body": "Prueba #1",
+    "user_id": 2,
+    "created_at": {
+      "date": "2018-06-08 15:22:51.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "updated_at": {
+      "date": "2018-06-08 15:22:51.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "hash_id": "djyZ36YmedLeGV7arMJv",
+    "user": {
+      "first_name": "Kevin",
+      "last_name": "Cifuentes",
+      "email": null,
+      "phone": null,
+      "provider": "facebook",
+      "provider_id": "798564215498356456",
+      "created_at": "2018-05-24 20:11:07",
+      "updated_at": "2018-05-24 20:11:07",
+      "deleted_at": null,
+      "city_id": 0,
+      "full_name": "Kevin Cifuentes",
+      "has_preferences": false,
+      "hash_id": "qlbgwkdQnJgP9M6DvmLV"
+    }
+  },
+  "comment": {
+    "body": "Esto es un segundo Comentario de Sandra para el post Prueba #1 de nuevo",
+    "created_at": "Jun 10, 2018",
+    "updated_at": "Jun 10, 2018",
+    "created_at_diff": "1s",
+    "updated_at_diff": "1s",
+    "isOwner": false,
+    "link_edit": "http:\/\/api.futbolconnect.san\/v1\/comments\/40Rk9B8Ke24Mnb3Q1VNv",
+    "user": {
+      "full_name": "Daniel Cifuentes",
+      "avatar": null,
+      "links": {
+        "show_user": "http:\/\/api.futbolconnect.san\/v1\/users\/40Rk9B8Ke2MPb3Q1VNvA"
+      }
+    }
+  }
+}

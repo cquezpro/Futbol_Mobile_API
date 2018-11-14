@@ -1,0 +1,103 @@
+
+page-profile {
+  .item ion-avatar ion-img,
+  .item ion-avatar img {
+    width: 88px;
+    height: 88px;
+  }
+  .item h2 {
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .item h3 {
+    font-size: 14px;
+    font-weight: 100;
+  }
+  .item p {
+    font-size: 12px;
+  }
+}
+.tab-content2{
+    max-height: 325px;
+    .portada{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  .img-portada{
+    width: 100%;
+    height: 160px;
+  }
+}
+.biografia-profile{
+  color: #ffffff;
+  background-color: #202020;
+  padding: 10px;
+  position: relative;
+  bottom: 75px;
+  height: 80px;
+
+.text-bio{
+    width: 100%;
+    height: 100%;
+}
+
+
+}
+.portada_edit{
+  position: absolute;
+  right: 0px;
+  top: 55px;
+}
+.profile-date{
+  position: relative;
+  bottom: 50px;
+  padding: 10px;
+  margin-bottom: 20px;
+  .info-profile{
+    position: absolute;
+    bottom: 10px;
+  }
+  .info-tex-profile{
+    width: 100%;
+    height: 100px;
+  }
+}
+}
+.nav-profile{
+  background-color:#ec6c2f;
+  text-align: center;
+
+    .content-btn{
+      .btn-dentro{
+        width: 100%;
+        height: 100%;
+
+        .btn-prueba{
+        display: block;
+        width: 80px;
+        height: 60px;
+        font-size: 18px;
+        font-weight: bolder;
+        
+        p{
+         font-family: "Roboto", "Helvetica Neue", sans-serif; 
+        }
+        }
+      }
+      
+      .text-nav{
+        margin: 0px;
+        font-size: 16px;
+      }
+    }
+  
+}
+.profile-info{
+  padding: 20px;
+  text-align: left;
+  color: #ffffff;
+  font-size: 20px;
+  .title-info{
+    text-align: center;
+  }
+}

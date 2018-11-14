@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Perfil Jugador</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <title-common [endIcon]="''" [title]="'Detalles'"></title-common>
+    <ion-card-content>
+      <ion-list>
+        <ion-item>
+          <ion-label floating>Altura</ion-label>
+          <ion-input type="number" item-end></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label floating>Peso</ion-label>
+          <ion-input type="number" item-end></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label floating>Numero de camiseta</ion-label>
+          <ion-input type="number" item-end></ion-input>
+        </ion-item>
+        <ion-item (click)="openModalFutbolTypes()">
+          <h2>Tipos de Futbol que juego</h2>
+          <p>
+            <span *ngFor="let ft of ftSelected; let lst = last">
+              {{ ft.language_key_items[0].value }} {{ !lst ? ',' :'' }}
+            </span>
+          </p>
+          <ion-icon name="create" color="primary" item-end></ion-icon>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

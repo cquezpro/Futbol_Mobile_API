@@ -1,0 +1,320 @@
+{
+	"data": [
+		{
+			"id": 3160,
+			"league_id": 564,
+			"season_id": 13133,
+			"stage_id": 7743270,
+			"group_id": 0,
+			"round_id": 151250,
+			"aggregate_id": 0,
+			"venue_id": 9240,
+			"referee_id": 18637,
+			"localteam_id": 214,
+			"visitorteam_id": 36,
+			"attendance": 0,
+			"winning_odds_calculated": false,
+			"commentaries": false,
+			"areTvstations": true,
+			"deleted": false,
+			"plan_profile": 1,
+			"updated_at": 1537920266000,
+			"scores": {
+				"localteam_score": 1,
+				"visitorteam_score": 0,
+				"localteam_pen_score": 0,
+				"visitorteam_pen_score": 0,
+				"ht_score": "1-0"
+			},
+			"formations": {
+				"localteam_formation": "4-4-2",
+				"visitorteam_formation": "5-3-2"
+			},
+			"time": {
+				"status": "LIVE",
+				"minute": 66,
+				"extra_minute": 0,
+				"injury_time": 0,
+				"timezone": "UTC",
+				"date_time": "2018-09-26T20:00:00Z",
+				"timestamp": 1537992000,
+				"date": 1537992000000
+			},
+			"coaches": {
+				"localteam_coach_id": 1467953,
+				"visitorteam_coach_id": 896755
+			},
+			"standings": {
+				"localteam_position": 15,
+				"visitorteam_position": 4
+			},
+			"statistics": [
+				{
+					"team_id": 214,
+					"attacks": {
+						"attacks": 60,
+						"dangerous_attacks": 24
+					},
+					"corners": 0,
+					"id": "214_10420459",
+					"fixture_id": 10420459,
+					"fouls": 14,
+					"free_kick": 0,
+					"goal_kick": 0,
+					"offsides": 1,
+					"passes": {
+						"total_passes": 247,
+						"accurate": 191,
+						"percentage": 77
+					},
+					"possessiontime": 35,
+					"redcards": 0,
+					"saves": 0,
+					"shots": {
+						"total": 10,
+						"ongoal": 2,
+						"offgoal": 8,
+						"blocked": 0,
+						"insidebox": 5,
+						"outsidebox": 5
+					},
+					"substitutions": 0,
+					"throw_in": 0,
+					"yellowcards": 1,
+					"updated_at": 1537996956166
+				},
+				{
+					"team_id": 36,
+					"attacks": {
+						"attacks": 96,
+						"dangerous_attacks": 24
+					},
+					"corners": 1,
+					"id": "36_10420459",
+					"fixture_id": 10420459,
+					"fouls": 6,
+					"free_kick": 0,
+					"goal_kick": 0,
+					"offsides": 2,
+					"passes": {
+						"total_passes": 484,
+						"accurate": 426,
+						"percentage": 88
+					},
+					"possessiontime": 65,
+					"redcards": 0,
+					"saves": 2,
+					"shots": {
+						"total": 4,
+						"ongoal": 0,
+						"offgoal": 2,
+						"blocked": 2,
+						"insidebox": 1,
+						"outsidebox": 3
+					},
+					"substitutions": 1,
+					"throw_in": 0,
+					"yellowcards": 2,
+					"updated_at": 1537996956166
+				}
+			],
+			"localTeam": {
+				"id": 214,
+				"name": "Valencia",
+				"twitter": "@valenciacf",
+				"country_id": 32,
+				"national_team": false,
+				"founded": 1919,
+				"logo_path": "https://sportickr.com/images/soccer/teams/214.png",
+				"venue_id": 9240,
+				"coach_id": 0,
+				"updated_at": 1537993884000
+			},
+			"visitorTeam": {
+				"id": 36,
+				"name": "Celta de Vigo",
+				"twitter": "@RCCelta",
+				"country_id": 32,
+				"national_team": false,
+				"founded": 1923,
+				"logo_path": "https://sportickr.com/images/soccer/teams/36.png",
+				"venue_id": 9239,
+				"coach_id": 896755,
+				"updated_at": 1537993884000
+			}
+		},
+		{
+			"id": 3176,
+			"league_id": 564,
+			"season_id": 13133,
+			"stage_id": 7743270,
+			"group_id": 0,
+			"round_id": 151250,
+			"aggregate_id": 0,
+			"venue_id": 177,
+			"referee_id": 16998,
+			"localteam_id": 676,
+			"visitorteam_id": 3468,
+			"attendance": 0,
+			"winning_odds_calculated": false,
+			"commentaries": false,
+			"areTvstations": true,
+			"deleted": false,
+			"plan_profile": 1,
+			"updated_at": 1537920267000,
+			"scores": {
+				"localteam_score": 3,
+				"visitorteam_score": 0,
+				"localteam_pen_score": 0,
+				"visitorteam_pen_score": 0,
+				"ht_score": "3-0"
+			},
+			"formations": {
+				"localteam_formation": "3-5-2",
+				"visitorteam_formation": "4-3-3"
+			},
+			"time": {
+				"status": "LIVE",
+				"minute": 66,
+				"extra_minute": 0,
+				"injury_time": 0,
+				"timezone": "UTC",
+				"date_time": "2018-09-26T20:00:00Z",
+				"timestamp": 1537992000,
+				"date": 1537992000000
+			},
+			"coaches": {
+				"localteam_coach_id": 524244,
+				"visitorteam_coach_id": 474728
+			},
+			"standings": {
+				"localteam_position": 7,
+				"visitorteam_position": 2
+			},
+			"statistics": [
+				{
+					"team_id": 676,
+					"attacks": {
+						"attacks": 59,
+						"dangerous_attacks": 33
+					},
+					"corners": 5,
+					"id": "676_10420463",
+					"fixture_id": 10420463,
+					"fouls": 7,
+					"free_kick": 0,
+					"goal_kick": 0,
+					"offsides": 0,
+					"passes": {
+						"total_passes": 251,
+						"accurate": 211,
+						"percentage": 84
+					},
+					"possessiontime": 43,
+					"redcards": 0,
+					"saves": 3,
+					"shots": {
+						"total": 15,
+						"ongoal": 7,
+						"offgoal": 4,
+						"blocked": 4,
+						"insidebox": 12,
+						"outsidebox": 3
+					},
+					"substitutions": 0,
+					"throw_in": 0,
+					"yellowcards": 1,
+					"updated_at": 1537996956166
+				},
+				{
+					"team_id": 3468,
+					"attacks": {
+						"attacks": 78,
+						"dangerous_attacks": 31
+					},
+					"corners": 5,
+					"id": "3468_10420463",
+					"fixture_id": 10420463,
+					"fouls": 10,
+					"free_kick": 0,
+					"goal_kick": 0,
+					"offsides": 2,
+					"passes": {
+						"total_passes": 390,
+						"accurate": 347,
+						"percentage": 89
+					},
+					"possessiontime": 57,
+					"redcards": 0,
+					"saves": 5,
+					"shots": {
+						"total": 15,
+						"ongoal": 3,
+						"offgoal": 9,
+						"blocked": 3,
+						"insidebox": 9,
+						"outsidebox": 6
+					},
+					"substitutions": 2,
+					"throw_in": 0,
+					"yellowcards": 3,
+					"updated_at": 1537996956166
+				}
+			],
+			"localTeam": {
+				"id": 676,
+				"name": "Sevilla",
+				"twitter": "@SevillaFC",
+				"country_id": 32,
+				"national_team": false,
+				"founded": 1890,
+				"logo_path": "https://sportickr.com/images/soccer/teams/676.png",
+				"venue_id": 177,
+				"coach_id": 0,
+				"updated_at": 1537993885000
+			},
+			"visitorTeam": {
+				"id": 3468,
+				"name": "Real Madrid",
+				"twitter": "@realmadrid",
+				"country_id": 32,
+				"national_team": false,
+				"founded": 1902,
+				"logo_path": "https://sportickr.com/images/soccer/teams/3468.png",
+				"venue_id": 2020,
+				"coach_id": 0,
+				"updated_at": 1537993886000
+			}
+		}
+	],
+"meta": {
+	"pagination": {
+		"count": 2,
+		"current_page": 1,
+		"per_page": 100,
+		"total": 2,
+		"total_pages": 1,
+		"links": {
+			"next": null,
+			"before": null
+		}
+	},
+	"plan": {
+		"name": "Professional Minor-Major-Leagues Plan",
+		"price": "89,95€",
+		"request_limit": "1600,60"
+	},
+	"subscription": {
+		"ends_at": {
+			"date": null,
+			"timezone": "UTC"
+		},
+		"started_at": {
+			"date": 1537313340000,
+			"timezone": "UTC"
+		},
+		"trial_ends_at": null
+	},
+	"rate_limit": "1600_30"
+}
+}

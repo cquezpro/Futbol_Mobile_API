@@ -1,0 +1,18 @@
+<ion-navbar hideBackButton="true">
+	<ion-buttons class="skew-bar"></ion-buttons>
+	<ion-buttons start *ngIf="startIcon">
+	  <button ion-button icon-only (click)="startClickEvent()">
+	    <ion-icon color="white" name="{{startIcon}}"></ion-icon>
+	  </button>
+	</ion-buttons>
+		
+	<ion-title class="toolbar-title">
+	  {{title}}
+	</ion-title>
+
+	<ion-buttons end *ngIf="endIcon">
+	  <button ion-button icon-only (click)="endClickEvent()">
+	    <ion-icon color="white" name="{{endIcon}}"></ion-icon>
+	  </button>
+	</ion-buttons>
+</ion-navbar>

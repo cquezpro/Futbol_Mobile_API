@@ -1,0 +1,1645 @@
+{ 
+  "language_keys": [
+    {
+      "name": "gender",
+      "trans": [
+        {
+          "code": "male",
+          "languages": {
+            "en": "Male",
+            "es": "Masculino"
+          }
+        },
+        {
+          "code": "female",
+          "languages": {
+            "en": "Female",
+            "es": "Femenino"
+          }
+        }
+      ]
+    },
+    {
+      "name": "categories",
+      "trans": [
+        {
+          "code": "news",
+          "languages": {
+            "en": "News",
+            "es": "Noticias"
+          }
+        },
+        {
+          "code": "transfers",
+          "languages": {
+            "en": "Transfers",
+            "es": "Transferencias"
+          }
+        },
+        {
+          "code": "professional_equipment",
+          "languages": {
+            "en": "Professional equipment",
+            "es": "Equipo Profesional"
+          }
+        },
+        {
+          "code": "highlights_matches",
+          "languages": {
+            "en": "Highlights matches",
+            "es": "Resultados destacados"
+          }
+        },
+        {
+          "code": "minute_by_minute",
+          "languages": {
+            "en": "Minute by minute",
+            "es": "Minuto a minuto"
+          }
+        },
+        {
+          "code": "uniforms",
+          "languages": {
+            "en": "Uniforms",
+            "es": "Uniformes"
+          }
+        },
+        {
+          "code": "sports_marketing",
+          "languages": {
+            "en": "Sports Marketing",
+            "es": "Marketing deportivo"
+          }
+        },
+        {
+          "code": "education_and_training",
+          "languages": {
+            "en": "Education and training",
+            "es": "Educación y entrenamiento"
+          }
+        },
+        {
+          "code": "statistics_and_sports_data",
+          "languages": {
+            "en": "Statistics and sports data",
+            "es": "Datos estadísticos y deportivos"
+          }
+        }
+      ]
+    },
+    {
+      "name": "nationality",
+      "trans": [
+        {
+          "code": "afghan",
+          "languages": {
+            "en": "Afghan",
+            "es": "afgano"
+          }
+        },
+        {
+          "code": "albanian",
+          "languages": {
+            "en": "Albanian",
+            "es": "Albanés"
+          }
+        },
+        {
+          "code": "algerian",
+          "languages": {
+            "en": "Algerian",
+            "es": "Argelino"
+          }
+        },
+        {
+          "code": "american",
+          "languages": {
+            "en": "American",
+            "es": "Americano"
+          }
+        },
+        {
+          "code": "andorran",
+          "languages": {
+            "en": "Andorran",
+            "es": "Andorrano"
+          }
+        },
+        {
+          "code": "angolan",
+          "languages": {
+            "en": "Angolan",
+            "es": "angoleño"
+          }
+        },
+        {
+          "code": "antiguans",
+          "languages": {
+            "en": "Antiguans",
+            "es": "Antiguans"
+          }
+        },
+        {
+          "code": "argentinean",
+          "languages": {
+            "en": "Argentinean",
+            "es": "Argentino"
+          }
+        },
+        {
+          "code": "armenian",
+          "languages": {
+            "en": "Armenian",
+            "es": "Armenio"
+          }
+        },
+        {
+          "code": "australian",
+          "languages": {
+            "en": "Australian",
+            "es": "Australiano"
+          }
+        },
+        {
+          "code": "Austrian",
+          "languages": {
+            "en": "Austrian",
+            "es": "Austriaco"
+          }
+        },
+        {
+          "code": "Azerbaijani",
+          "languages": {
+            "en": "Azerbaijani",
+            "es": "Azerbaiyano"
+          }
+        },
+        {
+          "code": "Bahamian",
+          "languages": {
+            "en": "Bahamian",
+            "es": "Bahameño"
+          }
+        },
+        {
+          "code": "Bahraini",
+          "languages": {
+            "en": "Bahraini",
+            "es": "Bahrein"
+          }
+        },
+        {
+          "code": "Bangladeshi",
+          "languages": {
+            "en": "Bangladeshi",
+            "es": "Bangladesh"
+          }
+        },
+        {
+          "code": "Barbadian",
+          "languages": {
+            "en": "Barbadian",
+            "es": "Barbadense"
+          }
+        },
+        {
+          "code": "Barbudans",
+          "languages": {
+            "en": "Barbudans",
+            "es": "Barbudans"
+          }
+        },
+        {
+          "code": "Batswana",
+          "languages": {
+            "en": "Batswana",
+            "es": "Batswana"
+          }
+        },
+        {
+          "code": "Belarusian",
+          "languages": {
+            "en": "Belarusian",
+            "es": "Bielorruso"
+          }
+        },
+        {
+          "code": "Belgian",
+          "languages": {
+            "en": "Belgian",
+            "es": "Belga"
+          }
+        },
+        {
+          "code": "Belizean",
+          "languages": {
+            "en": "Belizean",
+            "es": "Beliceño"
+          }
+        },
+        {
+          "code": "Beninese",
+          "languages": {
+            "en": "Beninese",
+            "es": "Beninés"
+          }
+        },
+        {
+          "code": "Bhutanese",
+          "languages": {
+            "en": "Bhutanese",
+            "es": "Bhutanes"
+          }
+        },
+        {
+          "code": "Bolivian",
+          "languages": {
+            "en": "Bolivian",
+            "es": "Boliviano"
+          }
+        },
+        {
+          "code": "Bosnian",
+          "languages": {
+            "en": "Bosnian",
+            "es": "bosnio"
+          }
+        },
+        {
+          "code": "Brazilian",
+          "languages": {
+            "en": "Brazilian",
+            "es": "brasileño"
+          }
+        },
+        {
+          "code": "British",
+          "languages": {
+            "en": "British",
+            "es": "británico"
+          }
+        },
+        {
+          "code": "Bruneian",
+          "languages": {
+            "en": "Bruneian",
+            "es": "Bruneian"
+          }
+        },
+        {
+          "code": "Bulgarian",
+          "languages": {
+            "en": "Bulgarian",
+            "es": "búlgaro"
+          }
+        },
+        {
+          "code": "Burkinabe",
+          "languages": {
+            "en": "Burkinabe",
+            "es": "Burkinabe"
+          }
+        },
+        {
+          "code": "Burmese",
+          "languages": {
+            "en": "Burmese",
+            "es": "birmano"
+          }
+        },
+        {
+          "code": "Burundian",
+          "languages": {
+            "en": "Burundian",
+            "es": "burundés"
+          }
+        },
+        {
+          "code": "Cambodian",
+          "languages": {
+            "en": "Cambodian",
+            "es": "camboyano"
+          }
+        },
+        {
+          "code": "Cameroonian",
+          "languages": {
+            "en": "Cameroonian",
+            "es": "camerunés"
+          }
+        },
+        {
+          "code": "Canadian",
+          "languages": {
+            "en": "Canadian",
+            "es": "canadiense"
+          }
+        },
+        {
+          "code": "Cape Verdean",
+          "languages": {
+            "en": "Cape Verdean",
+            "es": "cabo verdean"
+          }
+        },
+        {
+          "code": "Central African",
+          "languages": {
+            "en": "Central African",
+            "es": "Centroafricano"
+          }
+        },
+        {
+          "code": "Chadian",
+          "languages": {
+            "en": "Chadian",
+            "es": "Chadiano"
+          }
+        },
+        {
+          "code": "Chilean",
+          "languages": {
+            "en": "Chilean",
+            "es": "Chileno"
+          }
+        },
+        {
+          "code": "Chinese",
+          "languages": {
+            "en": "Chinese",
+            "es": "chino"
+          }
+        },
+        {
+          "code": "Colombian",
+          "languages": {
+            "en": "Colombian",
+            "es": "colombiano"
+          }
+        },
+        {
+          "code": "Comoran",
+          "languages": {
+            "en": "Comoran",
+            "es": "Comoran"
+          }
+        },
+        {
+          "code": "Congolese",
+          "languages": {
+            "en": "Congolese",
+            "es": "congoleño"
+          }
+        },
+        {
+          "code": "Costa Ricans",
+          "languages": {
+            "en": "Costa Ricans",
+            "es": "costarricense"
+          }
+        },
+        {
+          "code": "Croatian",
+          "languages": {
+            "en": "Croatian",
+            "es": "croata"
+          }
+        },
+        {
+          "code": "Cuban",
+          "languages": {
+            "en": "Cuban",
+            "es": "cubano"
+          }
+        },
+        {
+          "code": "Cypriot",
+          "languages": {
+            "en": "Cypriot",
+            "es": "chipriota"
+          }
+        },
+        {
+          "code": "Czech",
+          "languages": {
+            "en": "Czech",
+            "es": "Checo"
+          }
+        },
+        {
+          "code": "Danish",
+          "languages": {
+            "en": "Danish",
+            "es": "Danés"
+          }
+        },
+        {
+          "code": "Djibouti",
+          "languages": {
+            "en": "Djibouti",
+            "es": "Djibouti"
+          }
+        },
+        {
+          "code": "Dominican",
+          "languages": {
+            "en": "Dominican",
+            "es": "dominicano"
+          }
+        },
+        {
+          "code": "Dutch",
+          "languages": {
+            "en": "Dutch",
+            "es": "holandés"
+          }
+        },
+        {
+          "code": "East Timorese",
+          "languages": {
+            "en": "East Timorese",
+            "es": "Timorense Oriental"
+          }
+        },
+        {
+          "code": "Ecuadorean",
+          "languages": {
+            "en": "Ecuadorean",
+            "es": "ecuatoriano"
+          }
+        },
+        {
+          "code": "Egyptian",
+          "languages": {
+            "en": "Egyptian",
+            "es": "Egipcio"
+          }
+        },
+        {
+          "code": "Emirian",
+          "languages": {
+            "en": "Emirian",
+            "es": "Emirian"
+          }
+        },
+        {
+          "code": "Equatorial Guinean",
+          "languages": {
+            "en": "Equatorial Guinean",
+            "es": "Guinean Ecuatorial"
+          }
+        },
+        {
+          "code": "Eritrean",
+          "languages": {
+            "en": "Eritrean",
+            "es": "Eritrean"
+          }
+        },
+        {
+          "code": "Estonian",
+          "languages": {
+            "en": "Estonian",
+            "es": "Estonio"
+          }
+        },
+        {
+          "code": "Ethiopian",
+          "languages": {
+            "en": "Ethiopian",
+            "es": "Etíope"
+          }
+        },
+        {
+          "code": "Fijian",
+          "languages": {
+            "en": "Fijian",
+            "es": "Fijian"
+          }
+        },
+        {
+          "code": "Filipino",
+          "languages": {
+            "en": "Filipino",
+            "es": "Filipino"
+          }
+        },
+        {
+          "code": "Finnish",
+          "languages": {
+            "en": "Finnish",
+            "es": "finlandés"
+          }
+        },
+        {
+          "code": "French",
+          "languages": {
+            "en": "French",
+            "es": "Francés"
+          }
+        },
+        {
+          "code": "Gabonese",
+          "languages": {
+            "en": "Gabonese",
+            "es": "Gabonese"
+          }
+        },
+        {
+          "code": "Gambian",
+          "languages": {
+            "en": "Gambian",
+            "es": "gambiano"
+          }
+        },
+        {
+          "code": "Georgian",
+          "languages": {
+            "en": "Georgian",
+            "es": "georgiano"
+          }
+        },
+        {
+          "code": "German",
+          "languages": {
+            "en": "German",
+            "es": "Alemán"
+          }
+        },
+        {
+          "code": "Ghanaian",
+          "languages": {
+            "en": "Ghanaian",
+            "es": "ghanés"
+          }
+        },
+        {
+          "code": "Greek",
+          "languages": {
+            "en": "Greek",
+            "es": "Griego"
+          }
+        },
+        {
+          "code": "Grenadian",
+          "languages": {
+            "en": "Grenadian",
+            "es": "Granadino"
+          }
+        },
+        {
+          "code": "Guatemalan",
+          "languages": {
+            "en": "Guatemalan",
+            "es": "guatemalteco"
+          }
+        },
+        {
+          "code": "Guinea-Bissauan",
+          "languages": {
+            "en": "Guinea-Bissauan",
+            "es": "Guinea-Bissauan"
+          }
+        },
+        {
+          "code": "Guinean",
+          "languages": {
+            "en": "Guinean",
+            "es": "guineano"
+          }
+        },
+        {
+          "code": "Guyanese",
+          "languages": {
+            "en": "Guyanese",
+            "es": "guyaneses"
+          }
+        },
+        {
+          "code": "Haitian",
+          "languages": {
+            "en": "Haitian",
+            "es": "haitiano"
+          }
+        },
+        {
+          "code": "Herzegovinian",
+          "languages": {
+            "en": "Herzegovinian",
+            "es": "Herzegovinio"
+          }
+        },
+        {
+          "code": "Honduran",
+          "languages": {
+            "en": "Honduran",
+            "es": "hondureño"
+          }
+        },
+        {
+          "code": "Hungarian",
+          "languages": {
+            "en": "Hungarian",
+            "es": "Húngaro"
+          }
+        },
+        {
+          "code": "I-Kiribati",
+          "languages": {
+            "en": "I-Kiribati",
+            "es": "I-Kiribati"
+          }
+        },
+        {
+          "code": "Icelander",
+          "languages": {
+            "en": "Icelander",
+            "es": "islandés"
+          }
+        },
+        {
+          "code": "Indian",
+          "languages": {
+            "en": "Indian",
+            "es": "Indio"
+          }
+        },
+        {
+          "code": "Indonesian",
+          "languages": {
+            "en": "Indonesian",
+            "es": "indonesio"
+          }
+        },
+        {
+          "code": "Iranian",
+          "languages": {
+            "en": "Iranian",
+            "es": "iraní"
+          }
+        },
+        {
+          "code": "Iraqi",
+          "languages": {
+            "en": "Iraqi",
+            "es": "iraquí"
+          }
+        },
+        {
+          "code": "Irish",
+          "languages": {
+            "en": "Irish",
+            "es": "Irlandesa"
+          }
+        },
+        {
+          "code": "Israeli",
+          "languages": {
+            "en": "Israeli",
+            "es": "israelí"
+          }
+        },
+        {
+          "code": "Italian",
+          "languages": {
+            "en": "Italian",
+            "es": "Italiano"
+          }
+        },
+        {
+          "code": "Ivorian",
+          "languages": {
+            "en": "Ivorian",
+            "es": "marfileño"
+          }
+        },
+        {
+          "code": "Jamaican",
+          "languages": {
+            "en": "Jamaican",
+            "es": "Jamaicano"
+          }
+        },
+        {
+          "code": "Japanese",
+          "languages": {
+            "en": "Japanese",
+            "es": "Japonés"
+          }
+        },
+        {
+          "code": "Jordanian",
+          "languages": {
+            "en": "Jordanian",
+            "es": "jordano"
+          }
+        },
+        {
+          "code": "Kazakhstani",
+          "languages": {
+            "en": "Kazakhstani",
+            "es": "Kazakhstani"
+          }
+        },
+        {
+          "code": "Kenyan",
+          "languages": {
+            "en": "Kenyan",
+            "es": "Kenia"
+          }
+        },
+        {
+          "code": "Kittian and Nevisian",
+          "languages": {
+            "en": "Kittian and Nevisian",
+            "es": "Kittiay Nevisian"
+          }
+        },
+        {
+          "code": "Kuwaiti",
+          "languages": {
+            "en": "Kuwaiti",
+            "es": "kuwaití"
+          }
+        },
+        {
+          "code": "Kyrgyz",
+          "languages": {
+            "en": "Kyrgyz",
+            "es": "Kyrgyz"
+          }
+        },
+        {
+          "code": "Laotian",
+          "languages": {
+            "en": "Laotian",
+            "es": "Laosiano"
+          }
+        },
+        {
+          "code": "Latvian",
+          "languages": {
+            "en": "Latvian",
+            "es": "letón"
+          }
+        },
+        {
+          "code": "Lebanese",
+          "languages": {
+            "en": "Lebanese",
+            "es": "libanés"
+          }
+        },
+        {
+          "code": "Liberian",
+          "languages": {
+            "en": "Liberian",
+            "es": "liberiano"
+          }
+        },
+        {
+          "code": "Libyan",
+          "languages": {
+            "en": "Libyan",
+            "es": "Libio"
+          }
+        },
+        {
+          "code": "Liechtensteiner",
+          "languages": {
+            "en": "Liechtensteiner",
+            "es": "Liechtensteiner"
+          }
+        },
+        {
+          "code": "Lithuanian",
+          "languages": {
+            "en": "Lithuanian",
+            "es": "Lituano"
+          }
+        },
+        {
+          "code": "Luxembourger",
+          "languages": {
+            "en": "Luxembourger",
+            "es": "luxemburgués"
+          }
+        },
+        {
+          "code": "Macedonian",
+          "languages": {
+            "en": "Macedonian",
+            "es": "Macedonio"
+          }
+        },
+        {
+          "code": "Malagasy",
+          "languages": {
+            "en": "Malagasy",
+            "es": "malgache"
+          }
+        },
+        {
+          "code": "Malawian",
+          "languages": {
+            "en": "Malawian",
+            "es": "Malawi"
+          }
+        },
+        {
+          "code": "Malaysian",
+          "languages": {
+            "en": "Malaysian",
+            "es": "malasio"
+          }
+        },
+        {
+          "code": "Maldivian",
+          "languages": {
+            "en": "Maldivian",
+            "es": "Maldivo"
+          }
+        },
+        {
+          "code": "Malian",
+          "languages": {
+            "en": "Malian",
+            "es": "Maliense"
+          }
+        },
+        {
+          "code": "Maltese",
+          "languages": {
+            "en": "Maltese",
+            "es": "Maltés"
+          }
+        },
+        {
+          "code": "Marshallese",
+          "languages": {
+            "en": "Marshallese",
+            "es": "Marshallese"
+          }
+        },
+        {
+          "code": "Mauritanian",
+          "languages": {
+            "en": "Mauritanian",
+            "es": "mauritano"
+          }
+        },
+        {
+          "code": "Mauritian",
+          "languages": {
+            "en": "Mauritian",
+            "es": "Mauricio"
+          }
+        },
+        {
+          "code": "Mexican",
+          "languages": {
+            "en": "Mexican",
+            "es": "mexicano"
+          }
+        },
+        {
+          "code": "Micronesian",
+          "languages": {
+            "en": "Micronesian",
+            "es": "Micronesio"
+          }
+        },
+        {
+          "code": "Moldovan",
+          "languages": {
+            "en": "Moldovan",
+            "es": "moldavo"
+          }
+        },
+        {
+          "code": "Monacan",
+          "languages": {
+            "en": "Monacan",
+            "es": "Monacan"
+          }
+        },
+        {
+          "code": "Mongolian",
+          "languages": {
+            "en": "Mongolian",
+            "es": "Mongol"
+          }
+        },
+        {
+          "code": "Moroccan",
+          "languages": {
+            "en": "Moroccan",
+            "es": "marroquí"
+          }
+        },
+        {
+          "code": "Mosotho",
+          "languages": {
+            "en": "Mosotho",
+            "es": "Mosotho"
+          }
+        },
+        {
+          "code": "Motswana",
+          "languages": {
+            "en": "Motswana",
+            "es": "Motswana"
+          }
+        },
+        {
+          "code": "Mozambican",
+          "languages": {
+            "en": "Mozambican",
+            "es": "mozambiqueño"
+          }
+        },
+        {
+          "code": "Namibian",
+          "languages": {
+            "en": "Namibian",
+            "es": "Namibian"
+          }
+        },
+        {
+          "code": "Nauruan",
+          "languages": {
+            "en": "Nauruan",
+            "es": "Nauruan"
+          }
+        },
+        {
+          "code": "Nepalese",
+          "languages": {
+            "en": "Nepalese",
+            "es": "nepalí"
+          }
+        },
+        {
+          "code": "New Zealander",
+          "languages": {
+            "en": "New Zealander",
+            "es": "Neozelandés"
+          }
+        },
+        {
+          "code": "Ni-Vanuatu",
+          "languages": {
+            "en": "Ni-Vanuatu",
+            "es": "Ni-Vanuatu"
+          }
+        },
+        {
+          "code": "Nicaraguan",
+          "languages": {
+            "en": "Nicaraguan",
+            "es": "nicaragüense"
+          }
+        },
+        {
+          "code": "Nigerian",
+          "languages": {
+            "en": "Nigerian",
+            "es": "Nigeriano"
+          }
+        },
+        {
+          "code": "Nigerien",
+          "languages": {
+            "en": "Nigerien",
+            "es": "Nigerien"
+          }
+        },
+        {
+          "code": "North Korean",
+          "languages": {
+            "en": "North Korean",
+            "es": "Norcoreano"
+          }
+        },
+        {
+          "code": "Northern Irish",
+          "languages": {
+            "en": "Northern Irish",
+            "es": "Irlandés norteño"
+          }
+        },
+        {
+          "code": "Norwegian",
+          "languages": {
+            "en": "Norwegian",
+            "es": "Noruego"
+          }
+        },
+        {
+          "code": "Omani",
+          "languages": {
+            "en": "Omani",
+            "es": "Omán"
+          }
+        },
+        {
+          "code": "Pakistani",
+          "languages": {
+            "en": "Pakistani",
+            "es": "paquistaní"
+          }
+        },
+        {
+          "code": "Palauan",
+          "languages": {
+            "en": "Palauan",
+            "es": "Palauan"
+          }
+        },
+        {
+          "code": "Panamanian",
+          "languages": {
+            "en": "Panamanian",
+            "es": "panameño"
+          }
+        },
+        {
+          "code": "Papua New Guinean",
+          "languages": {
+            "en": "Papua New Guinean",
+            "es": "Papua Nueva Guinea"
+          }
+        },
+        {
+          "code": "Paraguayan",
+          "languages": {
+            "en": "Paraguayan",
+            "es": "paraguayo"
+          }
+        },
+        {
+          "code": "Peruvian",
+          "languages": {
+            "en": "Peruvian",
+            "es": "peruano"
+          }
+        },
+        {
+          "code": "Polish",
+          "languages": {
+            "en": "Polish",
+            "es": "Polaco"
+          }
+        },
+        {
+          "code": "Portuguese",
+          "languages": {
+            "en": "Portuguese",
+            "es": "Portugués"
+          }
+        },
+        {
+          "code": "Qatari",
+          "languages": {
+            "en": "Qatari",
+            "es": "Qatari"
+          }
+        },
+        {
+          "code": "Romanian",
+          "languages": {
+            "en": "Romanian",
+            "es": "rumano"
+          }
+        },
+        {
+          "code": "Russian",
+          "languages": {
+            "en": "Russian",
+            "es": "Ruso"
+          }
+        },
+        {
+          "code": "Rwandan",
+          "languages": {
+            "en": "Rwandan",
+            "es": "Ruandanés"
+          }
+        },
+        {
+          "code": "Saint Lucian",
+          "languages": {
+            "en": "Saint Lucian",
+            "es": "SanLuciano"
+          }
+        },
+        {
+          "code": "Salvadoran",
+          "languages": {
+            "en": "Salvadoran",
+            "es": "salvadoreño"
+          }
+        },
+        {
+          "code": "Samoan",
+          "languages": {
+            "en": "Samoan",
+            "es": "Samoan"
+          }
+        },
+        {
+          "code": "San Marinese",
+          "languages": {
+            "en": "San Marinese",
+            "es": "San Marinense"
+          }
+        },
+        {
+          "code": "Sao Tomean",
+          "languages": {
+            "en": "Sao Tomean",
+            "es": "Sao Tomean"
+          }
+        },
+        {
+          "code": "Saudi",
+          "languages": {
+            "en": "Saudi",
+            "es": "Arabia"
+          }
+        },
+        {
+          "code": "Scottish",
+          "languages": {
+            "en": "Scottish",
+            "es": "escocés"
+          }
+        },
+        {
+          "code": "Senegalese",
+          "languages": {
+            "en": "Senegalese",
+            "es": "senegalés"
+          }
+        },
+        {
+          "code": "Serbian",
+          "languages": {
+            "en": "Serbian",
+            "es": "serbio"
+          }
+        },
+        {
+          "code": "Seychellois",
+          "languages": {
+            "en": "Seychellois",
+            "es": "Seychelles"
+          }
+        },
+        {
+          "code": "Sierra Leonean",
+          "languages": {
+            "en": "Sierra Leonean",
+            "es": "Sierra Leonenses"
+          }
+        },
+        {
+          "code": "Singaporean",
+          "languages": {
+            "en": "Singaporean",
+            "es": "Singapur"
+          }
+        },
+        {
+          "code": "Slovakian",
+          "languages": {
+            "en": "Slovakian",
+            "es": "eslovaco"
+          }
+        },
+        {
+          "code": "Slovenian",
+          "languages": {
+            "en": "Slovenian",
+            "es": "esloveno"
+          }
+        },
+        {
+          "code": "Solomon Islander",
+          "languages": {
+            "en": "Solomon Islander",
+            "es": "Islas Salomón"
+          }
+        },
+        {
+          "code": "Somali",
+          "languages": {
+            "en": "Somali",
+            "es": "somalí"
+          }
+        },
+        {
+          "code": "South African",
+          "languages": {
+            "en": "South African",
+            "es": "Sudafricano"
+          }
+        },
+        {
+          "code": "South Korean",
+          "languages": {
+            "en": "South Korean",
+            "es": "Sur-coreano"
+          }
+        },
+        {
+          "code": "Spanish",
+          "languages": {
+            "en": "Spanish",
+            "es": "Español"
+          }
+        },
+        {
+          "code": "Sri Lankan",
+          "languages": {
+            "en": "Sri Lankan",
+            "es": "DSri Lanka"
+          }
+        },
+        {
+          "code": "Sudanese",
+          "languages": {
+            "en": "Sudanese",
+            "es": "sudanesa"
+          }
+        },
+        {
+          "code": "Surinamer",
+          "languages": {
+            "en": "Surinamer",
+            "es": "Surinamer"
+          }
+        },
+        {
+          "code": "Swazi",
+          "languages": {
+            "en": "Swazi",
+            "es": "Swazi"
+          }
+        },
+        {
+          "code": "Swedish",
+          "languages": {
+            "en": "Swedish",
+            "es": "sueco"
+          }
+        },
+        {
+          "code": "Swiss",
+          "languages": {
+            "en": "Swiss",
+            "es": "Suizo"
+          }
+        },
+        {
+          "code": "Syrian",
+          "languages": {
+            "en": "Syrian",
+            "es": "Sirio"
+          }
+        },
+        {
+          "code": "Taiwanese",
+          "languages": {
+            "en": "Taiwanese",
+            "es": "taiwanés"
+          }
+        },
+        {
+          "code": "Tajik",
+          "languages": {
+            "en": "Tajik",
+            "es": "Tajik"
+          }
+        },
+        {
+          "code": "Tanzanian",
+          "languages": {
+            "en": "Tanzanian",
+            "es": "tanzano"
+          }
+        },
+        {
+          "code": "Thai",
+          "languages": {
+            "en": "Thai",
+            "es": "tailandés"
+          }
+        },
+        {
+          "code": "Togolese",
+          "languages": {
+            "en": "Togolese",
+            "es": "Togolese"
+          }
+        },
+        {
+          "code": "Tongan",
+          "languages": {
+            "en": "Tongan",
+            "es": "Tongano"
+          }
+        },
+        {
+          "code": "Trinidadian or Tobagonian",
+          "languages": {
+            "en": "Trinidadian or Tobagonian",
+            "es": "trinitenso o tobagoniano"
+          }
+        },
+        {
+          "code": "Tunisian",
+          "languages": {
+            "en": "Tunisian",
+            "es": "Túnez"
+          }
+        },
+        {
+          "code": "Turkish",
+          "languages": {
+            "en": "Turkish",
+            "es": "Turco"
+          }
+        },
+        {
+          "code": "Tuvaluan",
+          "languages": {
+            "en": "Tuvaluan",
+            "es": "Tuvaluan"
+          }
+        },
+        {
+          "code": "Ugandan",
+          "languages": {
+            "en": "Ugandan",
+            "es": "Ugandan"
+          }
+        },
+        {
+          "code": "Ukrainian",
+          "languages": {
+            "en": "Ukrainian",
+            "es": "Ucraniano"
+          }
+        },
+        {
+          "code": "Uruguayan",
+          "languages": {
+            "en": "Uruguayan",
+            "es": "uruguayo"
+          }
+        },
+        {
+          "code": "Uzbekistani",
+          "languages": {
+            "en": "Uzbekistani",
+            "es": "Uzbekistani"
+          }
+        },
+        {
+          "code": "Venezuelan",
+          "languages": {
+            "en": "Venezuelan",
+            "es": "venezolano"
+          }
+        },
+        {
+          "code": "Vietnamese",
+          "languages": {
+            "en": "Vietnamese",
+            "es": "vietnamita"
+          }
+        },
+        {
+          "code": "Welsh",
+          "languages": {
+            "en": "Welsh",
+            "es": "Galés"
+          }
+        },
+        {
+          "code": "Yemenite",
+          "languages": {
+            "en": "Yemenite",
+            "es": "Yemenita"
+          }
+        },
+        {
+          "code": "Zambian",
+          "languages": {
+            "en": "Zambian",
+            "es": "Zambiano"
+          }
+        },
+        {
+          "code": "Zimbabwean",
+          "languages": {
+            "en": "Zimbabwean",
+            "es": "Zimbabwe"
+          }
+        }
+      ]
+    },
+    {
+      "name": "game_positions",
+      "trans": [
+        {
+          "code": "GK",
+          "languages": {
+            "en": "Goalkeeper",
+            "es": "Arquero"
+          }
+        },
+        {
+          "code": "SW",
+          "languages": {
+            "en": "Sweeper",
+            "es": "Defensa libero"
+          }
+        },
+        {
+          "code": "LB",
+          "languages": {
+            "en": "Left Full-back",
+            "es": "Defensa izquierdo"
+          }
+        },
+        {
+          "code": "CB",
+          "languages": {
+            "en": "Center Full-back",
+            "es": "Defensa central"
+          }
+        },
+        {
+          "code": "RB",
+          "languages": {
+            "en": "Right Full-back",
+            "es": "Defensa Derecho"
+          }
+        },
+        {
+          "code": "LWB",
+          "languages": {
+            "en": "Left Wing-back",
+            "es": "Lateral izquierdo"
+          }
+        },
+        {
+          "code": "RWB",
+          "languages": {
+            "en": "Right Wing-back",
+            "es": "Lateral derecho"
+          }
+        },
+        {
+          "code": "DM",
+          "languages": {
+            "en": "Defensive midfield",
+            "es": "Mediocampista defensivo"
+          }
+        },
+        {
+          "code": "LM",
+          "languages": {
+            "en": "Left wide midfield",
+            "es": "Mediocampista lateral izquierdo"
+          }
+        },
+        {
+          "code": "CM",
+          "languages": {
+            "en": "Center midfield",
+            "es": "Mediocampista central"
+          }
+        },
+        {
+          "code": "RM",
+          "languages": {
+            "en": "Right wide midfield",
+            "es": "Mediocampista lateral derecho"
+          }
+        },
+        {
+          "code": "AM",
+          "languages": {
+            "en": "Attacking midfield",
+            "es": "Volante Ofensivo"
+          }
+        },
+        {
+          "code": "LW",
+          "languages": {
+            "en": "Left Winger",
+            "es": "Extremo izquierdo"
+          }
+        },
+        {
+          "code": "SS",
+          "languages": {
+            "en": "Second Striker",
+            "es": "Volante de creación"
+          }
+        },
+        {
+          "code": "RW",
+          "languages": {
+            "en": "Right Winger",
+            "es": "Extremo derecho"
+          }
+        },
+        {
+          "code": "CF",
+          "languages": {
+            "en": "Center Forward",
+            "es": "Delantero central"
+          }
+        }
+      ]
+     
+    },
+    {
+      "name": "collaborator_type",
+      "trans": [
+        {
+          "code": "coach",
+          "languages": {
+            "en": "Coach",
+            "es": "Técnico"
+          }
+        },
+        {
+          "code": "assist_coach",
+          "languages": {
+            "en": "Assist Coach",
+            "es": "Técnico Asistente"
+          }
+        },
+        {
+          "code": "scout",
+          "languages": {
+            "en": "Scout",
+            "es": "Caza Talentos"
+          }
+        },
+        {
+          "code": "agent",
+          "languages": {
+            "en": "Agent",
+            "es": "Representante"
+          }
+        },
+        {
+          "code": "referee",
+          "languages": {
+            "en": "Referee",
+            "es": "Árbitro"
+          }
+        }
+      ]
+    },{
+      "name": "futbol_type",
+      "trans": [
+        {
+          "code": "f_11",
+          "languages": {
+            "en": "Ordinary Football",
+            "es": "Fútbol 11"
+          }
+        },
+        {
+          "code": "ind_fut",
+          "languages": {
+            "en": "Indoor Futbol",
+            "es": "Fúbol Sala"
+          }
+        },
+        {
+          "code": "f_5",
+          "languages": {
+            "en": "Footbal 5",
+            "es": "Fútbol 5"
+          }
+        },
+        {
+          "code": "mini_socc",
+          "languages": {
+            "en": "Mini Soccer",
+            "es": "Micro Futbol"
+          }
+        }
+
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+@import url(../theme/variables.scss);
+picture.bg-img{
+  display: flex;
+  justify-content: center;
+  &::after{
+    content: '';
+    background-image: url(../assets/imgs/fc-logo/Logo@2x.png);
+    background-size: 100%;
+    width: 80%;
+    height: 110px;
+    margin-top: 30px;
+    background-repeat: no-repeat;
+    z-index: 1;
+  }
+  img{
+    width: $full-width;
+    filter: blur($blur);
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: -1px;
+    height: 100vh;
+    object-fit: cover;
+  }
+}
+.content {
+  background-color: #000000;
+}

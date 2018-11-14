@@ -1,0 +1,88 @@
+<!--
+  Generated template for the NotificationsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+<ion-content padding-horizontal >
+
+	<ion-list>
+		<ion-item-divider color="light">
+			Solicitudes de amistad
+			<ion-badge>2</ion-badge>
+		</ion-item-divider>
+		<ion-card>
+			<ion-card-header>
+				<ion-item>
+					<ion-avatar item-start>
+						<img src="http://www.eluniversal.com.co/sites/default/files/201807/james_rodriguez.jpg">
+					</ion-avatar>
+					<h2>James Rodriguez</h2>
+					<button ion-button icon-end color="orange" item-end>
+					  Aceptar
+					  <ion-icon name="checkmark-circle"></ion-icon>
+					</button>
+
+					<button ion-button icon-end color="gray-mate" item-end>
+					  Rechazar
+					  <ion-icon name="close-circle"></ion-icon>
+					</button>
+				</ion-item>
+			</ion-card-header>
+		</ion-card>
+		<ion-card>
+			<ion-card-header>
+				<ion-item>
+					<ion-avatar item-start>
+						<img src="https://goravens.ca/wp-content/uploads/Heather-Bungay_CU_WSOC_1239-600x750.jpg">
+					</ion-avatar>
+					<h2>Ivana Fuckalot</h2>
+					<button ion-button icon-end color="orange" item-end>
+					  Aceptar
+					  <ion-icon name="checkmark-circle"></ion-icon>
+					</button>
+
+					<button ion-button icon-end color="gray-mate" item-end>
+					  Rechazar
+					  <ion-icon name="close-circle"></ion-icon>
+					</button>
+				</ion-item>
+			</ion-card-header>
+		</ion-card>
+	</ion-list>
+
+	<ion-list>
+		<ion-item-divider color="light">
+			Notificaciones
+			<ion-badge>{{notifications.length}}</ion-badge>
+		</ion-item-divider>
+		<!--<div *ngFor="let notification of notifications">
+			<ion-item text-wrap class="new-notification">
+				
+				<ion-avatar item-start>
+					<img src="https://goravens.ca/wp-content/uploads/Heather-Bungay_CU_WSOC_1239-600x750.jpg">
+				</ion-avatar>
+				<p>{{notification.title}}</p>
+				<h2><b>{{notification.name}}</b> :<p class="wrapp_text">{{notification.content}}</p></h2>
+				<p>hace {{notification.time}}</p>
+			</ion-item>
+		</div> -->
+	</ion-list>
+
+	<ion-list>
+		<div *ngFor="let notification of notifications">
+		  <ion-item class="new-notification">
+		    <ion-avatar item-start>
+		      <img src="https://goravens.ca/wp-content/uploads/Heather-Bungay_CU_WSOC_1239-600x750.jpg">
+		    </ion-avatar>
+		    <p><b>{{notification.title}} de:</b></p><button ion-button clear item-end>
+		    	<ion-icon name="more"></ion-icon></button>
+			
+		    <h2>{{notification.name}}<b> hace {{notification.time}} </b></h2>
+		    <h3 class="wrapp_text">{{notification.content}}</h3>
+		    
+		  </ion-item>
+		</div>
+	</ion-list>
+</ion-content>

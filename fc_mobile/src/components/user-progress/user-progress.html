@@ -1,0 +1,43 @@
+<!-- Generated template for the UserProgressComponent component -->
+<ion-card>
+  <!--<ion-card-header>
+    Completa tu perfil
+  </ion-card-header>-->
+	<title-common [title]="'COMPLETE YOUR PROFILE'" [endIcon]="'person'"></title-common>
+  <ion-card-content>
+  	<ion-row>
+  		<ion-col>
+  			<!--<ion-icon name="contact" col-12 style="font-size: 100px;text-align: center;"></ion-icon>-->
+			<round-progress
+					[current]="79"
+					[max]="100"
+					[color]="'#ec6c2f'"
+					[background]="'#333333'"
+					[radius]="60"
+					[radius]="60"
+					[stroke]="10"
+					[semicircle]="false"
+					[rounded]="true"
+					[clockwise]="true"
+					[responsive]="false"
+					[duration]="800"
+					[animation]="'easeInOutElastic'"
+					[animationDelay]="1000"
+					(onRender)="doSomethingWithCurrentValue($event)">
+				<h1>75%</h1>
+			</round-progress>
+  		</ion-col>
+  		<ion-col class="user-progress-advertisement">
+  			<span>Fill out your full profile to reach more users</span>
+  		</ion-col>
+
+  	</ion-row>
+  	<ion-item *ngFor="let item of [0,0,0]">
+		<ion-label>Gender</ion-label>
+		<ion-select >
+			<ion-option value="male">Masculino</ion-option>
+			<ion-option value="female">Femenino</ion-option>
+		</ion-select>
+	</ion-item>
+  </ion-card-content>
+</ion-card>

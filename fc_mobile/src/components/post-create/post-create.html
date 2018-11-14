@@ -1,0 +1,29 @@
+<!-- Generated template for the PostCreateComponent component -->
+<!-- <ion-card>
+
+  <ion-card-header>
+    Card Header
+  </ion-card-header>
+
+  <ion-card-content>
+    
+  </ion-card-content>
+
+</ion-card> -->
+
+<ion-item>
+  <ion-textarea placeholder="Que estas pensando?" [(ngModel)]="text"></ion-textarea>
+</ion-item>
+<ion-row>
+  <button ion-button icon-only col-2 (click)="picker()">
+    <ion-icon name="ios-attach"></ion-icon>
+  </button>
+  <ion-item col-5>
+    <ion-select [(ngModel)]="type">
+      <ion-label>{{type}}</ion-label>
+      <ion-option value="public" selected>Publico</ion-option>
+      <ion-option value="private">Privado</ion-option>
+    </ion-select>
+  </ion-item>
+  <button ion-button col-4 (click)="publish()">Publicar</button>
+</ion-row>

@@ -1,0 +1,126 @@
+<button (click)="goBack()" style="position: absolute; left: 0;" class="back-button bar-button bar-button-md back-button-md bar-button-default bar-button-default-md show-back-button" ion-button="bar-button" ng-reflect-klass="back-button" ng-reflect-ng-class="back-button-md">
+        <span class="button-inner">
+            <ion-icon class="back-button-icon icon icon-md back-button-icon-md ion-md-arrow-back" role="img" ng-reflect-klass="back-button-icon" ng-reflect-ng-class="back-button-icon-md" aria-label="arrow back" ng-reflect-name="md-arrow-back">
+
+            </ion-icon>
+            <span class="back-button-text back-button-text-md" ng-reflect-klass="back-button-text" ng-reflect-ng-class="back-button-text-md">
+
+            </span>
+        </span>
+    <div class="button-effect"></div>
+</button>
+<ion-content padding>
+    <picture class="bg-img">
+        <source media="(min-width: 650px)" srcset="assets/imgs/Back.png">
+        <source media="(min-width: 465px)" srcset="assets/imgs/Back.png">
+        <img src="assets/imgs/Back.png" alt="Flowers">
+    </picture>
+
+    <!-- <div class="top-banner ">
+      <img src="../../assets/imgs/login/fondo1.png">
+    </div> -->
+    <!--<div class='register-banner'>
+        <img src="assets/imgs/fc-logo/logowo.png">
+
+    </div>-->
+    <div class="register-container">
+        <!--<h3>Registrarse</h3>-->
+        <ion-list class='register-form'>
+            <ion-grid>
+                <ion-row>
+                    <ion-col col-12>
+                        <button ion-button full class="button-fb button-form" (click)="loginFB()"><ion-icon name="logo-facebook"></ion-icon>Unete con Facebook</button>
+                    </ion-col>
+                </ion-row>
+                <ion-row>
+                    <ion-col col-12 >
+                        <ion-item>
+                            <ion-input type="text" [(ngModel)] = "userData.first_name"  placeholder="Name"></ion-input>
+                        </ion-item>
+                    </ion-col>
+                </ion-row>
+                <ion-row>
+                    <ion-col col-12 >
+                        <ion-item>
+                            <ion-input type="text" [(ngModel)] = "userData.last_name"  placeholder="Last Name"></ion-input>
+                        </ion-item>
+                    </ion-col>
+                </ion-row>
+                <!--<ion-row class='aligned-end'>-->
+                <ion-row class='aligned-end'>
+                    <ion-col col-12 >
+                        <ion-item>
+                            <ion-input type="email" [(ngModel)] = "userData.email" placeholder="Email"></ion-input>
+                        </ion-item>
+                    </ion-col>
+                    <!--<ion-col col-6>
+                        <ion-item>
+                            <ion-label stacked>Fecha Nac.</ion-label>
+                            <ion-datetime displayFormat="DD-MM-YY" pickerFormat="DD MMM YYYY" [(ngModel)]="userData.birthday"></ion-datetime>
+                        </ion-item>
+                    </ion-col>
+                    <ion-col col-6>
+                        <ion-item>
+                            <ion-label floating>Genero</ion-label>
+                            <ion-select [(ngModel)]="gender">
+                                <ion-option value="male">Masculino</ion-option>
+                                <ion-option value="female">Femenino</ion-option>
+                            </ion-select>
+                        </ion-item>
+                    </ion-col>-->
+                </ion-row>
+                <ion-row>
+                    <ion-col col-4 >
+                        <ion-item>
+                            <ion-label>+{{userData.phone_code}}</ion-label>
+                            <ion-select [(ngModel)]="userData.phone_code" class="code-select-cls">
+                                <ion-option *ngFor="let country of countries" [value]="country.phone_code">{{country.name }}</ion-option>
+                            </ion-select>
+                        </ion-item>
+                    </ion-col>
+                    <ion-col col-8  >
+                        <ion-item>
+                            <ion-input type="number" placeholder="Mobile Number" [(ngModel)]="userData.phone"></ion-input>
+                        </ion-item>
+                    </ion-col>
+                </ion-row>
+                <ion-row>
+                    <ion-col col-12 >
+                        <ion-item>
+                            <ion-input type="password" placeholder="Password" [(ngModel)]="userData.password"></ion-input>
+                        </ion-item>
+                    </ion-col>
+                </ion-row>
+                <!--<ion-row>
+                    <ion-col col-12 >
+                        <ion-item>
+                            <ion-input type="password" placeholder="Confirm Password" [(ngModel)]="passwordConfirm"></ion-input>
+                        </ion-item>
+                    </ion-col>
+                </ion-row>-->
+                <ion-row>
+                    <ion-col col-12 >
+                        <button ion-button full class="button-white button-form" (click)="saveData()">Confirm</button>
+                    </ion-col>
+                </ion-row>
+                <!--<ion-row class='text-center'>-->
+                    <!--<img width="169px" height="8px" class="divider" src="assets/imgs/divider.png" alt="">-->
+                <!--</ion-row>-->
+                <div class='aditional-info'>
+                    <p class='terms' >al 'Unirte' aceptas nuestros <a>Terminos y condiciones</a></p>
+                    <p>¿Ya tienes una cuenta?</p>
+                    <a navPush="LoginPage">Ingresa</a>
+                </div>
+            </ion-grid>
+        </ion-list>
+
+        <!-- <button color="primary" ion-button class="login-button">Entrar</button>
+        <img width="169px" class="divider" src="../../assets/imgs/divider.png" alt="">
+        <button color="fb-button" ion-button class="facebook-button" >Iniciar con Facebook</button>         -->
+    </div>
+    <!-- <div class='aditional-info'>
+        <p>¿No tienes una cuenta?</p>
+        <a href="">Únete</a>
+    </div> -->
+
+</ion-content>

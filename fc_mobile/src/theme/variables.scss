@@ -1,0 +1,100 @@
+// Ionic Variables and Theming. For more info, please see:
+// http://ionicframework.com/docs/theming/
+
+// Font path is used to include ionicons,
+// roboto, and noto sans fonts
+$font-path: "../assets/fonts";
+
+// The app direction is used to include
+// rtl styles in your app. For more info, please see:
+// http://ionicframework.com/docs/theming/rtl-support/
+$app-direction: ltr;
+
+@import "ionic.globals";
+
+// Shared Variables
+// --------------------------------------------------
+// To customize the look and feel of this app, you can override
+// the Sass variables found in Ionic's source scss files.
+// To view all the possible Ionic variables, see:
+// http://ionicframework.com/docs/theming/overriding-ionic-variables/
+
+// Named Color Variables
+// --------------------------------------------------
+// Named colors makes it easy to reuse colors on various components.
+// It's highly recommended to change the default colors
+// to match your app's branding. Ionic uses a Sass map of
+// colors so you can add, rename and remove colors as needed.
+// The "primary" color is the   only required color in the map.
+
+$colors: (
+  primary: #f36b2a,
+  secondary: #f36b2a,
+  danger: #f53d3d,
+  light: #f4f4f4,
+  dark: #222,
+  orange: #ec6c2f,
+  fb-button: #3b5998,
+  basic-font-color: #505659,
+  white: #ffffff,
+  black: #000000,
+  black-mate: #1a1a1a,
+  gray-mate: #333333,
+  light-gray: #c4c4c4
+);
+
+$blur: 15px;
+$full-width: 100%;
+$full-height: 100%;
+$input-height: 56px;
+$header-height: 52px;
+
+$refresher-height: 60px; //Height of the refresher
+$refresher-icon-color: map-get($colors, "primary");
+$refresher-icon-font-size: 30px; //Font size of the refresher icon
+
+$refresher-text-color: #ffffff;
+
+$refresher-text-font-size: 16px; //Font size of the refresher content
+
+$refresher-border-color: transparent; //Border color of the refresher
+
+$text-input-highlight-color-valid: map-get($colors, "primary");
+
+// App iOS Variables
+// --------------------------------------------------
+// iOS only Sass variables can go here
+// App Material Design Variables
+$item-md-divider-color: white;
+
+$toolbar-ios-title-text-color: map-get($colors, "primary");
+$toolbar-md-title-text-color: map-get($colors, "primary");
+
+$spinner-ios-ios-color: color($colors, primary);
+$spinner-ios-circles-color: color($colors, primary);
+$spinner-md-circles-color: color($colors, primary);
+// --------------------------------------------------
+// Material Design only Sass variables can go here
+// App Windows Variables
+// --------------------------------------------------
+// Windows only Sass variables can go here
+// App Theme
+// --------------------------------------------------
+// Ionic apps can have different themes applied, which can
+// then be future customized. This import comes last
+// so that the above variables are used and Ionic's
+// default are overridden.
+@import "ionic.theme.default";
+
+// Ionicons
+// --------------------------------------------------
+// The premium icon font for Ionic. For more info, please see:
+// http://ionicframework.com/docs/ionicons/
+
+@import "ionic.ionicons";
+
+// Fonts
+// --------------------------------------------------
+
+@import "roboto";
+@import "noto-sans";

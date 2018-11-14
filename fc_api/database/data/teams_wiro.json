@@ -1,0 +1,1639 @@
+[
+	{
+		"description":"Real Madrid"
+	},
+	{
+		"description":"Barcelona"
+	},
+	{
+		"description":"Atlético Madrid"
+	},
+	{
+		"description":"Bayern München"
+	},
+	{
+		"description":"Grêmio"
+	},
+	{
+		"description":"Juventus"
+	},
+	{
+		"description":"Sevilla"
+	},
+	{
+		"description":"Flamengo"
+	},
+	{
+		"description":"River Plate"
+	},
+	{
+		"description":"Liverpool"
+	},
+	{
+		"description":"Independiente"
+	},
+	{
+		"description":"Manchester City"
+	},
+	{
+		"description":"Manchester United"
+	},
+	{
+		"description":"Roma"
+	},
+	{
+		"description":"Napoli"
+	},
+	{
+		"description":"Lazio"
+	},
+	{
+		"description":"PSG"
+	},
+	{
+		"description":"Valencia"
+	},
+	{
+		"description":"Boca Juniors"
+	},
+	{
+		"description":"Olympique Marseille"
+	},
+	{
+		"description":"Cruzeiro"
+	},
+	{
+		"description":"Shakhtar"
+	},
+	{
+		"description":"Arsenal"
+	},
+	{
+		"description":"Palmeiras"
+	},
+	{
+		"description":"San Lorenzo"
+	},
+	{
+		"description":"Sporting Lisboa"
+	},
+	{
+		"description":"Godoy Cruz"
+	},
+	{
+		"description":"Racing Club"
+	},
+	{
+		"description":"Milan"
+	},
+	{
+		"description":"Villarreal"
+	},
+	{
+		"description":"Atlético Tucumán"
+	},
+	{
+		"description":"Olympique"
+	},
+	{
+		"description":"América"
+	},
+	{
+		"description":"Santos"
+	},
+	{
+		"description":"Corinthians"
+	},
+	{
+		"description":"Chelsea"
+	},
+	{
+		"description":"Tigres UAN"
+	},
+	{
+		"description":"RB Leipzig"
+	},
+	{
+		"description":"CSKA Moscú"
+	},
+	{
+		"description":"Athletic Club Athletic"
+	},
+	{
+		"description":"Club Bilbao"
+	},
+	{
+		"description":"Atalanta"
+	},
+	{
+		"description":"Salzburgo"
+	},
+	{
+		"description":"Leonbuk"
+	},
+	{
+		"description":"Dinamo Kiev"
+	},
+	{
+		"description":"Vasco da Gama"
+	},
+	{
+		"description":"Monterrey"
+	},
+	{
+		"description":"Junior"
+	},
+	{
+		"description":"Porto"
+	},
+	{
+		"description":"Sporting Braga"
+	},
+	{
+		"description":"Huracán"
+	},
+	{
+		"description":"Schalke"
+	},
+	{
+		"description":"São Paulo"
+	},
+	{
+		"description":"Al Ahli"
+	},
+	{
+		"description":"Defensa y Justicia"
+	},
+	{
+		"description":"Real Betis"
+	},
+	{
+		"description":"Talleres Córdoba"
+	},
+	{
+		"description":"Libertad"
+	},
+	{
+		"description":"Espanyol"
+	},
+	{
+		"description":"Borussia Dortmund"
+	},
+	{
+		"description":"Real Sociedad"
+	},
+	{
+		"description":"Toluca"
+	},
+	{
+		"description":"Bayer Munich"
+	},
+	{
+		"description":"Shanghai SIPG"
+	},
+	{
+		"description":"Suwon Bluewings"
+	},
+	{
+		"description":"Basilea Basel"
+	},
+	{
+		"description":"Ulsan Ulsan"
+	},
+	{
+		"description":"Unión Santa Fe"
+	},
+	{
+		"description":"Lanús"
+	},
+	{
+		"description":"Getafe"
+	},
+	{
+		"description":"Beşiktaş"
+	},
+	{
+		"description":"Deportivo"
+	},
+	{
+		"description":"Lokomotiv"
+	},
+	{
+		"description":"Spartak Moscú"
+	},
+	{
+		"description":"Eintracht Frankfurt"
+	},
+	{
+		"description":"Atlético Mineiro"
+	},
+	{
+		"description":"AS Monaco"
+	},
+	{
+		"description":"Colón"
+	},
+	{
+		"description":"CD Leganés"
+	},
+	{
+		"description":"Rosario Central"
+	},
+	{
+		"description":"Zenit San Petersburgo"
+	},
+	{
+		"description":"Al Hila"
+	},
+	{
+		"description":"Hoffenheim"
+	},
+	{
+		"description":"Internazionale"
+	},
+	{
+		"description":"Vélez Sarsfield"
+	},
+	{
+		"description":"Argentinos Juniors"
+	},
+	{
+		"description":"Estudiantes"
+	},
+	{
+		"description":"Botafogo"
+	},
+	{
+		"description":"Girona"
+	},
+	{
+		"description":"Eibar"
+	},
+	{
+		"description":"Belgrano"
+	},
+	{
+		"description":"Chapecoense"
+	},
+	{
+		"description":"Levante"
+	},
+	{
+		"description":"Celta de Vigo"
+	},
+	{
+		"description":"Steaua Bucureşti"
+	},
+	{
+		"description":"Checa Viktoria"
+	},
+	{
+		"description":"Crvena Zvezda"
+	},
+	{
+		"description":"Tijuana"
+	},
+	{
+		"description":"Fluminense"
+	},
+	{
+		"description":"Bahia Bahia"
+	},
+	{
+		"description":"Atlético PR Curitiba"
+	},
+	{
+		"description":"Nacional Montevideo"
+	},
+	{
+		"description":"Banfield Lomas de Zamora"
+	},
+	{
+		"description":"İstanbul İstanbul"
+	},
+	{
+		"description":"Laguna Santos Laguna"
+	},
+	{
+		"description":"Santa Fe"
+	},
+	{
+		"description":"Vitória"
+	},
+	{
+		"description":" Celtic"
+	},
+	{
+		"description":"APOEL"
+	},
+	{
+		"description":"Moreli"
+	},
+	{
+		"description":"Guadalajara"
+	},
+	{
+		"description":"Cerro Porteño"
+	},
+	{
+		"description":"Stuttgart"
+	},
+	{
+		"description":"Sport Recife"
+	},
+	{
+		"description":"Fiorentina"
+	},
+	{
+		"description":"Hertha BSC"
+	},
+	{
+		"description":"Benfica"
+	},
+	{
+		"description":"Pachuca"
+	},
+	{
+		"description":"Guangzhou"
+	},
+	{
+		"description":"Patronato"
+	},
+	{
+		"description":"San Martí"
+	},
+	{
+		"description":"Apollon"
+	},
+	{
+		"description":"Östersunds"
+	},
+	{
+		"description":"Everton"
+	},
+	{
+		"description":" Atlético Nacional"
+	},
+	{
+		"description":"Nice "
+	},
+	{
+		"description":"Newell's Old Boys"
+	},
+	{
+		"description":"Ludogorets"
+	},
+	{
+		"description":"Millonarios"
+	},
+	{
+		"description":"Torino"
+	},
+	{
+		"description":"Cruz Azul"
+	},
+	{
+		"description":"Peñarol"
+	},
+	{
+		"description":"Borussia M'gladbach"
+	},
+	{
+		"description":"Galatasaray"
+	},
+	{
+		"description":"Werder Bremen"
+	},
+	{
+		"description":"Wolfsburg"
+	},
+	{
+		"description":"Young Boys"
+	},
+	{
+		"description":"Jeju Unite"
+	},
+	{
+		"description":"Olimpia"
+	},
+	{
+		"description":"Fenerbahçe"
+	},
+	{
+		"description":"AEK Atenas"
+	},
+	{
+		"description":"Slavia Praha"
+	},
+	{
+		"description":"Brujas"
+	},
+	{
+		"description":"Burnley"
+	},
+	{
+		"description":"Maccabi Tel Aviv "
+	},
+	{
+		"description":"Sampdoria "
+	},
+	{
+		"description":"León"
+	},
+	{
+		"description":"Partizan"
+	},
+	{
+		"description":"New York RB"
+	},
+	{
+		"description":"Nacional "
+	},
+	{
+		"description":"Leicester City"
+	},
+	{
+		"description":"Zorya Luhansk"
+	},
+	{
+		"description":"Toronto "
+	},
+	{
+		"description":"Deportes Tolima "
+	},
+	{
+		"description":"Standard"
+	},
+	{
+		"description":"Rennes"
+	},
+	{
+		"description":"Necaxa"
+	},
+	{
+		"description":"Tianjin Quanjian"
+	},
+	{
+		"description":"Augsburg"
+	},
+	{
+		"description":" Al Ittihad"
+	},
+	{
+		"description":"Gimnasia La Plata"
+	},
+	{
+		"description":"Mainz "
+	},
+	{
+		"description":"Independiente Medellín "
+	},
+	{
+		"description":"PAOK Thessaloníki "
+	},
+	{
+		"description":" Persepolis Tehrān"
+	},
+	{
+		"description":"Hannover"
+	},
+	{
+		"description":" Feyenoord Rotterdam"
+	},
+	{
+		"description":"Newcastle United "
+	},
+	{
+		"description":" Genk"
+	},
+	{
+		"description":"Freiburg"
+	},
+	{
+		"description":"Bordeaux "
+	},
+	{
+		"description":"Pohang Steelers"
+	},
+	{
+		"description":" Pumas"
+	},
+	{
+		"description":"Tigre"
+	},
+	{
+		"description":" Ajax"
+	},
+	{
+		"description":"Southampton"
+	},
+	{
+		"description":"Puebla"
+	},
+	{
+		"description":" Seoul"
+	},
+	{
+		"description":"Montpellier"
+	},
+	{
+		"description":"Crystal Palace "
+	},
+	{
+		"description":"Anderlecht Bruxelles"
+	},
+	{
+		"description":"Oleksandria "
+	},
+	{
+		"description":"Urawa Reds Saitama"
+	},
+	{
+		"description":"AEK Larnaca"
+	},
+	{
+		"description":"FC Copenhague"
+	},
+	{
+		"description":"Hapoel Be'er Sheva "
+	},
+	{
+		"description":" Krasnodar"
+	},
+	{
+		"description":" Al Nassr Ar-Riyāḍ"
+	},
+	{
+		"description":" Al Faisaly"
+	},
+	{
+		"description":"AFC Bournemouth "
+	},
+	{
+		"description":"Midtjylland "
+	},
+	{
+		"description":" Rosenborg BK"
+	},
+	{
+		"description":" Sassuolo"
+	},
+	{
+		"description":"Brøndby IF Saint-Étienne "
+	},
+	{
+		"description":"Esteghlal"
+	},
+	{
+		"description":" Kashima"
+	},
+	{
+		"description":"Temperley "
+	},
+	{
+		"description":"KP Legia Varsovia "
+	},
+	{
+		"description":"Rio Ave"
+	},
+	{
+		"description":"Vitória"
+	},
+	{
+		"description":"West Ham United"
+	},
+	{
+		"description":"Deportivo La Coruña"
+	},
+	{
+		"description":"Deportivo Aves"
+	},
+	{
+		"description":"Atlas Atlas Guadalajara"
+	},
+	{
+		"description":"Genoa"
+	},
+	{
+		"description":"PSV PSV Eindhoven"
+	},
+	{
+		"description":"Watford"
+	},
+	{
+		"description":"Swansea City"
+	},
+	{
+		"description":"Vorskla"
+	},
+	{
+		"description":"Al Duhail"
+	},
+	{
+		"description":"Deportivo"
+	},
+	{
+		"description":"Udinese"
+	},
+	{
+		"description":"Chievo"
+	},
+	{
+		"description":"Gent"
+	},
+	{
+		"description":"Akhisar Belediye"
+	},
+	{
+		"description":" Shanghai Shenhua"
+	},
+	{
+		"description":"AZ Alkmaar"
+	},
+	{
+		"description":"Cagliari"
+	},
+	{
+		"description":"Bologna"
+	},
+	{
+		"description":" Vitesse"
+	},
+	{
+		"description":"Al Batin"
+	},
+	{
+		"description":"Marítimo"
+	},
+	{
+		"description":"Shandong Luneng"
+	},
+	{
+		"description":"Cluj"
+	},
+	{
+		"description":"Spartak"
+	},
+	{
+		"description":"Huddersfield Town"
+	},
+	{
+		"description":"Universidad Craiova"
+	},
+	{
+		"description":"CSKA Sofía"
+	},
+	{
+		"description":"Queretaro"
+	},
+	{
+		"description":" Bucureşti"
+	},
+	{
+		"description":"Nantes"
+	},
+	{
+		"description":" SPAL"
+	},
+	{
+		"description":"Internacional"
+	},
+	{
+		"description":"Hamburger "
+	},
+	{
+		"description":"Illichivets Mariupol"
+	},
+	{
+		"description":"Gangwon "
+	},
+	{
+		"description":"Olympiakos Piraeus"
+	},
+	{
+		"description":"Al Feiha"
+	},
+	{
+		"description":"Konyaspor"
+	},
+	{
+		"description":"Köln"
+	},
+	{
+		"description":""
+	},
+	{
+		"description":"Dijon FCO"
+	},
+	{
+		"description":"Slovan Bratislava"
+	},
+	{
+		"description":"Guaraní"
+	},
+	{
+		"description":"Cerezo Osaka"
+	},
+	{
+		"description":"Amiens SV "
+	},
+	{
+		"description":"Trabzonspor"
+	},
+	{
+		"description":" Lugano"
+	},
+	{
+		"description":"Kawasaki "
+	},
+	{
+		"description":"Olimpo"
+	},
+	{
+		"description":"Kayserispor "
+	},
+	{
+		"description":"Atlético Huila"
+	},
+	{
+		"description":"Anorthosis"
+	},
+	{
+		"description":"Angers"
+	},
+	{
+		"description":"Caen"
+	},
+	{
+		"description":"Jablonec"
+	},
+	{
+		"description":"Sporting Charleroi"
+	},
+	{
+		"description":"América de Cali "
+	},
+	{
+		"description":"Dinamo de Moscú"
+	},
+	{
+		"description":"Arsenal Tula"
+	},
+	{
+		"description":"Crotone"
+	},
+	{
+		"description":"Al Ittifaq"
+	},
+	{
+		"description":"Al Fateh"
+	},
+	{
+		"description":"Daegu "
+	},
+	{
+		"description":" Seattle Sounders"
+	},
+	{
+		"description":"Sturm Graz"
+	},
+	{
+		"description":"Botoşani "
+	},
+	{
+		"description":"General Díaz"
+	},
+	{
+		"description":"Veracruz"
+	},
+	{
+		"description":"Al Shabab"
+	},
+	{
+		"description":"Atlético GO"
+	},
+	{
+		"description":"Rostov"
+	},
+	{
+		"description":"Guingamp"
+	},
+	{
+		"description":"Tosno"
+	},
+	{
+		"description":"Ufa"
+	},
+	{
+		"description":"Guoan Beijing"
+	},
+	{
+		"description":"Boavista"
+	},
+	{
+		"description":"Lobos BUAP"
+	},
+	{
+		"description":"Las Palmas"
+	},
+	{
+		"description":"AIK Solna"
+	},
+	{
+		"description":"Rubin Kazan"
+	},
+	{
+		"description":"Sparta Praha"
+	},
+	{
+		"description":"Patriotas Boyacá"
+	},
+	{
+		"description":"Guangzhou R&F Guangzhou"
+	},
+	{
+		"description":"Amkar Perm"
+	},
+	{
+		"description":"Zob Ahan"
+	},
+	{
+		"description":"Avaí Avaí"
+	},
+	{
+		"description":"Zulte Waregem"
+	},
+	{
+		"description":"Sigma Olomouc"
+	},
+	{
+		"description":"Al Taawon"
+	},
+	{
+		"description":"Strasbourg "
+	},
+	{
+		"description":"Ponte Preta"
+	},
+	{
+		"description":"Chacarita Juniors"
+	},
+	{
+		"description":"Sol de América"
+	},
+	{
+		"description":" Karpaty Lviv"
+	},
+	{
+		"description":" La Equidad"
+	},
+	{
+		"description":" Defensor Sporting"
+	},
+	{
+		"description":"Kortrijk"
+	},
+	{
+		"description":"Zürich"
+	},
+	{
+		"description":"Incheon United"
+	},
+	{
+		"description":"Sangju "
+	},
+	{
+		"description":"Gyeongnam"
+	},
+	{
+		"description":"Once"
+	},
+	{
+		"description":"Sivasspor"
+	},
+	{
+		"description":"Veres"
+	},
+	{
+		"description":"Djurgårdens"
+	},
+	{
+		"description":"Molde FK"
+	},
+	{
+		"description":"Glasgow Rangers "
+	},
+	{
+		"description":"West Bromwich Albion"
+	},
+	{
+		"description":"Toulouse"
+	},
+	{
+		"description":"FC Utrecht"
+	},
+	{
+		"description":"Levski Sofía"
+	},
+	{
+		"description":"Sydney"
+	},
+	{
+		"description":" Austria Viena"
+	},
+	{
+		"description":"Astra"
+	},
+	{
+		"description":"Arsenal Arg"
+	},
+	{
+		"description":"Envigado"
+	},
+	{
+		"description":"Barcelona Ecu"
+	},
+	{
+		"description":"Melbourne Victory"
+	},
+	{
+		"description":"Žilina"
+	},
+	{
+		"description":"Coritiba"
+	},
+	{
+		"description":"Sportivo Luqueño"
+	},
+	{
+		"description":"Kasımpaşa"
+	},
+	{
+		"description":"aguares de Córdoba"
+	},
+	{
+		"description":"Stoke City"
+	},
+	{
+		"description":"Sarpsborg"
+	},
+	{
+		"description":"Aberdeen"
+	},
+	{
+		"description":"Hibernian"
+	},
+	{
+		"description":"Lille"
+	},
+	{
+		"description":"Göztepe"
+	},
+	{
+		"description":"Nordsjælland"
+	},
+	{
+		"description":"Málaga "
+	},
+	{
+		"description":"DAC DAC Dunajská Streda"
+	},
+	{
+		"description":"Viitorul"
+	},
+	{
+		"description":"Astana"
+	},
+	{
+		"description":"Olimpik Donetsk"
+	},
+	{
+		"description":"Al Quadisiya"
+	},
+	{
+		"description":"Tondela"
+	},
+	{
+		"description":"Portimonense"
+	},
+	{
+		"description":"Yeni MalatyasporHebei CFFC"
+	},
+	{
+		"description":"Malmö"
+	},
+	{
+		"description":"América Mineiro"
+	},
+	{
+		"description":"Ural Sverdlovskaya "
+	},
+	{
+		"description":"Slovan Liberec"
+	},
+	{
+		"description":"Rionegro Águilas"
+	},
+	{
+		"description":"Belenenses"
+	},
+	{
+		"description":"Jiangsu Suning "
+	},
+	{
+		"description":"Jagiellonia Białystok"
+	},
+	{
+		"description":"Beitar Jerusalem "
+	},
+	{
+		"description":"Górnik Zabrze"
+	},
+	{
+		"description":"Al Ahly "
+	},
+	{
+		"description":"Independiente FBC"
+	},
+	{
+		"description":"Lech Poznań"
+	},
+	{
+		"description":"Danubio"
+	},
+	{
+		"description":"Kashiwa Reysol"
+	},
+	{
+		"description":"Chornomorets"
+	},
+	{
+		"description":"Rapid Viena"
+	},
+	{
+		"description":"KV Oostende"
+	},
+	{
+		"description":"Trenčín"
+	},
+	{
+		"description":"Checa Zlín"
+	},
+	{
+		"description":"Moreirense"
+	},
+	{
+		"description":"Terek Grozny"
+	},
+	{
+		"description":"FC Dallas"
+	},
+	{
+		"description":"Bursaspor"
+	},
+	{
+		"description":"St. Gallen"
+	},
+	{
+		"description":"Spartak Subotica"
+	},
+	{
+		"description":"Troyes"
+	},
+	{
+		"description":"Al Jazira"
+	},
+	{
+		"description":"AEL AEL"
+	},
+	{
+		"description":"Antalyaspor"
+	},
+	{
+		"description":"Changchun Yatai"
+	},
+	{
+		"description":"Hapoel Haifa"
+	},
+	{
+		"description":"Brann Bergen"
+	},
+	{
+		"description":"Hellas Verona"
+	},
+	{
+		"description":"Herediano"
+	},
+	{
+		"description":"Antwerp"
+	},
+	{
+		"description":"Gençlerbirliği"
+	},
+	{
+		"description":"Osmanlıspor"
+	},
+	{
+		"description":"Gaz Metan Mediaş"
+	},
+	{
+		"description":" Zirka"
+	},
+	{
+		"description":"Korona Kielce"
+	},
+	{
+		"description":"Čukarički"
+	},
+	{
+		"description":"Atlético Bucaramanga"
+	},
+	{
+		"description":"Ružomberok"
+	},
+	{
+		"description":"Atlanta United"
+	},
+	{
+		"description":"Alanyaspor"
+	},
+	{
+		"description":"Vitória Setúbal"
+	},
+	{
+		"description":"Deportivo Saprissa"
+	},
+	{
+		"description":"Strømsgodset"
+	},
+	{
+		"description":"Kansas City"
+	},
+	{
+		"description":"Radnički Niš"
+	},
+	{
+		"description":"Iaşi"
+	},
+	{
+		"description":"Kilmarnock"
+	},
+	{
+		"description":"Doxa"
+	},
+	{
+		"description":"Houston Dynamo"
+	},
+	{
+		"description":"Lillestrøm SK"
+	},
+	{
+		"description":"Tianjin Teda"
+	},
+	{
+		"description":"Bnei Yehuda"
+	},
+	{
+		"description":"Ferreise"
+	},
+	{
+		"description":"Al Raed"
+	},
+	{
+		"description":"Bohemians"
+	},
+	{
+		"description":"Atromitos"
+	},
+	{
+		"description":"Vålerenga"
+	},
+	{
+		"description":"Norrköping"
+	},
+	{
+		"description":"New York City"
+	},
+	{
+		"description":"Columbus Crew"
+	},
+	{
+		"description":"Nea Salamis"
+	},
+	{
+		"description":"Paphos"
+	},
+	{
+		"description":"Boston River"
+	},
+	{
+		"description":"Waasland-Beveren"
+	},
+	{
+		"description":"River Plate Uru"
+	},
+	{
+		"description":"Maccabi Netanya"
+	},
+	{
+		"description":"Portland Timbers"
+	},
+	{
+		"description":"Thun"
+	},
+	{
+		"description":"Heerenveen"
+	},
+	{
+		"description":"Wydad Casablanca"
+	},
+	{
+		"description":"Mladost Lučani"
+	},
+	{
+		"description":"Tromsø IL"
+	},
+	{
+		"description":"Aalborg"
+	},
+	{
+		"description":"Botev Plovdiv"
+	},
+	{
+		"description":"PEC Zwolle"
+	},
+	{
+		"description":"Estoril"
+	},
+	{
+		"description":"Paços de Ferreira"
+	},
+	{
+		"description":"Concordia Chiajna"
+	},
+	{
+		"description":"Kristiansund BK"
+	},
+	{
+		"description":"LASK Linz"
+	},
+	{
+		"description":"Häcken"
+	},
+	{
+		"description":"Jeonnam Dragons"
+	},
+	{
+		"description":"Cerro"
+	},
+	{
+		"description":"Motherwell"
+	},
+	{
+		"description":"Sint-Truiden"
+	},
+	{
+		"description":"Sepsi"
+	},
+	{
+		"description":"Buriram United"
+	},
+	{
+		"description":"ADO Den Haag"
+	},
+	{
+		"description":"Deportivo Pasto"
+	},
+	{
+		"description":"Grasshopper Grasshopper"
+	},
+	{
+		"description":"Teplice"
+	},
+	{
+		"description":"Omonia Nicosia"
+	},
+	{
+		"description":"Sanfrecce Hiroshima"
+	},
+	{
+		"description":"Mladá Boleslav"
+	},
+	{
+		"description":"Anzhi Makhachkala"
+	},
+	{
+		"description":"Vancouver Whitecaps"
+	},
+	{
+		"description":"Benevento"
+	},
+	{
+		"description":"AGF Aarhus"
+	},
+	{
+		"description":"Willem II"
+	},
+	{
+		"description":"SønderjyskE"
+	},
+	{
+		"description":"Haugesund"
+	},
+	{
+		"description":"Alianza Petrolera"
+	},
+	{
+		"description":"Zagłębie Lubin"
+	},
+	{
+		"description":"Philadelphia Union"
+	},
+	{
+		"description":"Panionios"
+	},
+	{
+		"description":"Ermis"
+	},
+	{
+		"description":"Metz"
+	},
+	{
+		"description":"Arka Gdynia"
+	},
+	{
+		"description":"Voždovac"
+	},
+	{
+		"description":"Napredak"
+	},
+	{
+		"description":"Wisła Płock"
+	},
+	{
+		"description":"Hammarby"
+	},
+	{
+		"description":"Sheriff"
+	},
+	{
+		"description":"Sion"
+	},
+	{
+		"description":"Deportivo Capiatá"
+	},
+	{
+		"description":"Yokohama F. Marinos"
+	},
+	{
+		"description":"Ironi Kiryat Shmona"
+	},
+	{
+		"description":"Heracles"
+	},
+	{
+		"description":"BATE"
+	},
+	{
+		"description":"Admira"
+	},
+	{
+		"description":"Wisla Cracovia"
+	},
+	{
+		"description":"ACS Poli Timişoara"
+	},
+	{
+		"description":"Hearts"
+	},
+	{
+		"description":"Voluntari"
+	},
+	{
+		"description":"Odds BK"
+	},
+	{
+		"description":"HOB"
+	},
+	{
+		"description":"Mattersburg"
+	},
+	{
+		"description":"Real Salt Lake"
+	},
+	{
+		"description":"Panathinaikos"
+	},
+	{
+		"description":"Silkeborg"
+	},
+	{
+		"description":"Nitra"
+	},
+	{
+		"description":"Newcastle Jets"
+	},
+	{
+		"description":"Slovácko"
+	},
+	{
+		"description":"Asteras Tripolis"
+	},
+	{
+		"description":"Xanthi"
+	},
+	{
+		"description":"Kalmar"
+	},
+	{
+		"description":"Excelsior"
+	},
+	{
+		"description":"Henan Jianye"
+	},
+	{
+		"description":"Chicago Fire"
+	},
+	{
+		"description":"Al Ain"
+	},
+	{
+		"description":"Dukla Praha"
+	},
+	{
+		"description":"Larissa"
+	},
+	{
+		"description":"Guizhou Zhicheng"
+	},
+	{
+		"description":"Liverpool Uru"
+	},
+	{
+		"description":"Lokeren"
+	},
+	{
+		"description":"Rheindorf"
+	},
+	{
+		"description":"Maribor"
+	},
+	{
+		"description":"Wanderers"
+	},
+	{
+		"description":"Wilstermann"
+	},
+	{
+		"description":"Beroe"
+	},
+	{
+		"description":"Zemplín Michalovce"
+	},
+	{
+		"description":"Mačva Šabac"
+	},
+	{
+		"description":"Al Sadd"
+	},
+	{
+		"description":"Groningen"
+	},
+	{
+		"description":"Júbilo Iwata"
+	},
+	{
+		"description":"Radnik Surdulica"
+	},
+	{
+		"description":"Baník Ostrava"
+	},
+	{
+		"description":"Ohod"
+	},
+	{
+		"description":"Mouscron"
+	},
+	{
+		"description":"Qarabağ"
+	},
+	{
+		"description":"GIF Sundsvall"
+	},
+	{
+		"description":"Vysočina Jihlava"
+	},
+	{
+		"description":"Saipa"
+	},
+	{
+		"description":"Vissel Kobe"
+	},
+	{
+		"description":"Alki Oroklini"
+	},
+	{
+		"description":"Consadole Sapporo"
+	},
+	{
+		"description":"Dniprodzerzhynsk"
+	},
+	{
+		"description":"Maccabi Petah Tikva"
+	},
+	{
+		"description":"Paraná"
+	},
+	{
+		"description":"Vojvodina"
+	},
+	{
+		"description":"Cracovia"
+	},
+	{
+		"description":"Santos de Guápiles"
+	},
+	{
+		"description":"Chongqing Dangdai"
+	},
+	{
+		"description":"Tokyo"
+	},
+	{
+		"description":"St. Johnstone"
+	},
+	{
+		"description":"IFK Göteborg"
+	},
+	{
+		"description":"LA Galaxy"
+	},
+	{
+		"description":"Maccabi Haifa"
+	},
+	{
+		"description":"Fénix"
+	},
+	{
+		"description":"Roda JC"
+	},
+	{
+		"description":"Melbourne City"
+	},
+	{
+		"description":"Al Gharafa"
+	},
+	{
+		"description":"VVV Venlo"
+	},
+	{
+		"description":"Hapoel Ra'anana"
+	},
+	{
+		"description":"Deportivo Lara"
+	},
+	{
+		"description":"Lausanne Sport"
+	},
+	{
+		"description":"Bačka Palanka"
+	},
+	{
+		"description":"Podbrezová"
+	},
+	{
+		"description":"Mechelen"
+	},
+	{
+		"description":"AS Eupen"
+	},
+	{
+		"description":"AC Horsens"
+	},
+	{
+		"description":"Randers"
+	},
+	{
+		"description":"Karviná"
+	},
+	{
+		"description":"Vegalta Sendai"
+	},
+	{
+		"description":"Rampla Juniors"
+	},
+	{
+		"description":"Örebro"
+	}
+]
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+  
+
+ 

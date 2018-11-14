@@ -1,0 +1,27 @@
+<ion-content class="tab-content">
+	<ion-fab bottom right>
+		<button ion-fab color="vibrant" mini (click)="newCoversation()">
+			<ion-icon name="chatbubbles"></ion-icon>
+		</button>
+	</ion-fab>
+	<ion-list>
+		<ion-card margin-bottom *ngFor="let conversation of conversations" (click)="open(conversation)"  class="chats">
+			<ion-card-header>
+				<ion-item>
+					<ion-avatar item-start>
+						<ion-img [src]="conversation.users[0].avatar ? conversation.users[0].from.avatar.avatar_path : 'assets/imgs/iconos/fc-group.svg'"></ion-img>
+					</ion-avatar>
+					<h2>
+						<span *ngFor="let user of conversation.users">
+							{{ user.full_name }}
+						</span>
+					</h2>
+					<p>{{ conversation.last_message.isSender ? 'Tu: ' : '' }}{{conversation.last_message.body}}</p>
+					<p item-end>
+						<small>{{ conversation.created_at_diff}}</small>
+					</p>
+				</ion-item>
+			</ion-card-header>
+		</ion-card>
+	</ion-list>
+</ion-content>

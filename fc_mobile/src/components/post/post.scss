@@ -1,0 +1,58 @@
+post {
+  .input.input input::placeholder{
+    text-align: left ;
+    color: color($colors, white)
+  }
+  .input.input input{
+    background: #272727;
+    border: none;
+    border-radius: 0px;
+    height: 35px;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 5px;
+  }
+  .card {
+    background: color($colors, black-mate);
+  }
+  .card-content{
+    background: color($colors, gray-mate);
+  }
+  .row{
+    background: color($colors, gray-mate);
+    margin:5px;
+  }
+  .white-text{
+    color: white;
+  }
+  ion-textarea{
+    height: 300px;
+  }
+}
+
+.more-img{
+  position: relative;
+  &:before{
+          margin:4px;
+          z-index: 110;
+          content:'+ VER MAS';
+          position: absolute;
+          top:0;
+          left:0;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          //align-items: center;
+
+          background:#000000;
+        }
+}
+.popover-content{
+  background-color: #000;
+}
+ .text-area {
+    padding: 10px;
+    height: 100px !important;
+    background-color:#272727;
+  }

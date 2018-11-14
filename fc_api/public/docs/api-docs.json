@@ -1,0 +1,975 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "FutbolConnect API",
+        "version": "1.0.0"
+    },
+    "basePath": "/v1",
+    "paths": {
+        "/oauth/register": {
+            "post": {
+                "tags": [
+                    "Auth"
+                ],
+                "summary": "User Registration and Login With Facebook",
+                "description": "Route for the creation of new users in the platform.\n\nIf the \"<i>provider</i>\" parameter is not sent, it will be understood that the record is of a manual type and not through Social Media<br>Example: (Facebook, Twitter, Goggle Plus, etc ...)",
+                "parameters": [
+                    {
+                        "$ref": "#/parameters/X-Api-Key"
+                    },
+                    {
+                        "$ref": "#/parameters/X-Client-Id"
+                    },
+                    {
+                        "$ref": "#/parameters/X-localization"
+                    },
+                    {
+                        "name": "first_name",
+                        "in": "query",
+                        "description": "First name of User",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "last_name",
+                        "in": "query",
+                        "description": "Last name of User",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "email",
+                        "in": "query",
+                        "description": "Required when field phone is not present.",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "phone",
+                        "in": "query",
+                        "description": "Required when field 'email' is not present.",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "password",
+                        "in": "query",
+                        "description": "Password is required when 'provider' is not present",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "provider",
+                        "in": "query",
+                        "description": "refers to the social network provider of the authentication service",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "provider_id",
+                        "in": "query",
+                        "description": "Unique identifier returned by the social network used as an authentication provider<br>Is required when 'provider' field is present.",
+                        "required": false,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Response Object",
+                        "schema": {
+                            "properties": {
+                                "message": {
+                                    "description": "User Registration and Login With Facebook\n\nRoute for the creation of new users in the platform.\n\nIf the \"<i>provider</i>\" parameter is not sent, it will be understood that the record is of a manual type and not through Social Media<br>Example: (Facebook, Twitter, Goggle Plus, etc ...)",
+                                    "type": "string",
+                                    "default": "User confirmed successfully."
+                                },
+                                "data": {
+                                    "description": "User Registration and Login With Facebook\n\nRoute for the creation of new users in the platform.\n\nIf the \"<i>provider</i>\" parameter is not sent, it will be understood that the record is of a manual type and not through Social Media<br>Example: (Facebook, Twitter, Goggle Plus, etc ...)",
+                                    "type": "object"
+                                }
+                            },
+                            "type": "object"
+                        }
+                    },
+                    "422": {
+                        "description": "Error: Unprocessable Entity",
+                        "schema": {
+                            "properties": {
+                                "message": {
+                                    "description": "User Registration and Login With Facebook\n\nRoute for the creation of new users in the platform.\n\nIf the \"<i>provider</i>\" parameter is not sent, it will be understood that the record is of a manual type and not through Social Media<br>Example: (Facebook, Twitter, Goggle Plus, etc ...)",
+                                    "type": "string",
+                                    "default": "User confirmed successfully."
+                                },
+                                "errors": {
+                                    "description": "User Registration and Login With Facebook\n\nRoute for the creation of new users in the platform.\n\nIf the \"<i>provider</i>\" parameter is not sent, it will be understood that the record is of a manual type and not through Social Media<br>Example: (Facebook, Twitter, Goggle Plus, etc ...)",
+                                    "type": "array",
+                                    "items": {
+                                        "properties": {
+                                            "first_name": {
+                                                "description": "User Registration and Login With Facebook\n\nRoute for the creation of new users in the platform.\n\nIf the \"<i>provider</i>\" parameter is not sent, it will be understood that the record is of a manual type and not through Social Media<br>Example: (Facebook, Twitter, Goggle Plus, etc ...)",
+                                                "type": "string"
+                                            },
+                                            "last_name": {
+                                                "description": "User Registration and Login With Facebook\n\nRoute for the creation of new users in the platform.\n\nIf the \"<i>provider</i>\" parameter is not sent, it will be understood that the record is of a manual type and not through Social Media<br>Example: (Facebook, Twitter, Goggle Plus, etc ...)",
+                                                "type": "string"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "type": "object"
+                        }
+                    }
+                }
+            }
+        },
+        "/oauth/login": {
+            "post": {
+                "tags": [
+                    "Auth"
+                ],
+                "summary": "Method for user login",
+                "parameters": [
+                    {
+                        "$ref": "#/parameters/X-Api-Key"
+                    },
+                    {
+                        "$ref": "#/parameters/X-Client-Id"
+                    },
+                    {
+                        "$ref": "#/parameters/X-localization"
+                    },
+                    {
+                        "name": "email",
+                        "in": "query",
+                        "description": "User email, this parameter is required when the phone is not present",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "phone",
+                        "in": "query",
+                        "description": "User Phone, this parameter is required when the Email is not present",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "password",
+                        "in": "query",
+                        "description": "User password",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Response Object",
+                        "schema": {
+                            "properties": {
+                                "message": {
+                                    "type": "string",
+                                    "default": "User confirmed successfully."
+                                },
+                                "data": {
+                                    "type": "array",
+                                    "items": {
+                                        "properties": {
+                                            "token": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "type": "object"
+                        }
+                    },
+                    "422": {
+                        "description": "Unprocessable Entity"
+                    },
+                    "401": {
+                        "description": "Incorrect information",
+                        "schema": {
+                            "properties": {
+                                "message": {
+                                    "type": "string",
+                                    "default": "Incorrect information."
+                                }
+                            },
+                            "type": "object"
+                        }
+                    }
+                }
+            }
+        },
+        "/oauth/logout": {
+            "post": {
+                "tags": [
+                    "Auth"
+                ],
+                "summary": "Method for user logout",
+                "parameters": [
+                    {
+                        "$ref": "#/parameters/X-Api-Key"
+                    },
+                    {
+                        "$ref": "#/parameters/X-Client-Id"
+                    },
+                    {
+                        "$ref": "#/parameters/X-localization"
+                    },
+                    {
+                        "$ref": "#/parameters/Authorization"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "You are Logged out.",
+                        "schema": {
+                            "properties": {
+                                "message": {
+                                    "type": "string",
+                                    "default": "You are Logged out."
+                                }
+                            },
+                            "type": "object"
+                        }
+                    }
+                }
+            }
+        },
+        "/categories": {
+            "get": {
+                "tags": [
+                    "Categories"
+                ],
+                "summary": "Path to list the categories stored in the system.",
+                "description": "<p>Path to list the categories stored in the system</p>\n<h3>Note!</h3>\n<p>Still pending to add the images of the categories in the database, for the case of the categories that have no associated image use the first letter of this style gmail</p>\n<br>\n<p>To associate the category with a user, the 'code' must be sent, since the relationships are made through this attribute.</p>",
+                "parameters": [
+                    {
+                        "$ref": "#/parameters/X-Api-Key"
+                    },
+                    {
+                        "$ref": "#/parameters/X-Client-Id"
+                    },
+                    {
+                        "$ref": "#/parameters/X-localization"
+                    },
+                    {
+                        "$ref": "#/parameters/q"
+                    },
+                    {
+                        "$ref": "#/parameters/per_page"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Response Object",
+                        "schema": {
+                            "properties": {
+                                "message": {
+                                    "description": "Title\nCategories List\n\n<p>Path to list the categories stored in the system</p>\n<h3>Note!</h3>\n<p>Still pending to add the images of the categories in the database, for the case of the categories that have no associated image use the first letter of this style gmail</p>\n<br>\n<p>To associate the category with a user, the 'code' must be sent, since the relationships are made through this attribute.</p>",
+                                    "type": "string",
+                                    "default": "User confirmed successfully."
+                                },
+                                "data": {
+                                    "description": "Title\nCategories List\n\n<p>Path to list the categories stored in the system</p>\n<h3>Note!</h3>\n<p>Still pending to add the images of the categories in the database, for the case of the categories that have no associated image use the first letter of this style gmail</p>\n<br>\n<p>To associate the category with a user, the 'code' must be sent, since the relationships are made through this attribute.</p>",
+                                    "type": "array",
+                                    "items": {
+                                        "properties": {
+                                            "name": {
+                                                "description": "Title\nCategories List\n\n<p>Path to list the categories stored in the system</p>\n<h3>Note!</h3>\n<p>Still pending to add the images of the categories in the database, for the case of the categories that have no associated image use the first letter of this style gmail</p>\n<br>\n<p>To associate the category with a user, the 'code' must be sent, since the relationships are made through this attribute.</p>",
+                                                "type": "string"
+                                            },
+                                            "code": {
+                                                "description": "Title\nCategories List\n\n<p>Path to list the categories stored in the system</p>\n<h3>Note!</h3>\n<p>Still pending to add the images of the categories in the database, for the case of the categories that have no associated image use the first letter of this style gmail</p>\n<br>\n<p>To associate the category with a user, the 'code' must be sent, since the relationships are made through this attribute.</p>",
+                                                "type": "string"
+                                            },
+                                            "hash_id": {
+                                                "description": "Title\nCategories List\n\n<p>Path to list the categories stored in the system</p>\n<h3>Note!</h3>\n<p>Still pending to add the images of the categories in the database, for the case of the categories that have no associated image use the first letter of this style gmail</p>\n<br>\n<p>To associate the category with a user, the 'code' must be sent, since the relationships are made through this attribute.</p>",
+                                                "type": "string"
+                                            },
+                                            "language_key_items": {
+                                                "description": "Title\nCategories List\n\n<p>Path to list the categories stored in the system</p>\n<h3>Note!</h3>\n<p>Still pending to add the images of the categories in the database, for the case of the categories that have no associated image use the first letter of this style gmail</p>\n<br>\n<p>To associate the category with a user, the 'code' must be sent, since the relationships are made through this attribute.</p>",
+                                                "type": "array",
+                                                "items": {
+                                                    "properties": {
+                                                        "value": {
+                                                            "description": "Title\nCategories List\n\n<p>Path to list the categories stored in the system</p>\n<h3>Note!</h3>\n<p>Still pending to add the images of the categories in the database, for the case of the categories that have no associated image use the first letter of this style gmail</p>\n<br>\n<p>To associate the category with a user, the 'code' must be sent, since the relationships are made through this attribute.</p>",
+                                                            "type": "string"
+                                                        },
+                                                        "hash_id": {
+                                                            "description": "Title\nCategories List\n\n<p>Path to list the categories stored in the system</p>\n<h3>Note!</h3>\n<p>Still pending to add the images of the categories in the database, for the case of the categories that have no associated image use the first letter of this style gmail</p>\n<br>\n<p>To associate the category with a user, the 'code' must be sent, since the relationships are made through this attribute.</p>",
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "type": "object"
+                        }
+                    }
+                }
+            }
+        },
+        "/cities": {
+            "get": {
+                "tags": [
+                    "Cities"
+                ],
+                "summary": "User Registration and Login With Facebook",
+                "parameters": [
+                    {
+                        "$ref": "#/parameters/X-Api-Key"
+                    },
+                    {
+                        "$ref": "#/parameters/X-Client-Id"
+                    },
+                    {
+                        "$ref": "#/parameters/X-localization"
+                    },
+                    {
+                        "$ref": "#/parameters/q"
+                    },
+                    {
+                        "$ref": "#/parameters/per_page"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Response Object when the per_page parameter is present",
+                        "schema": {
+                            "properties": {
+                                "message": {
+                                    "description": "M\u00e9todo\nList of Cities",
+                                    "type": "string",
+                                    "default": "User confirmed successfully."
+                                },
+                                "current_page": {
+                                    "description": "M\u00e9todo\nList of Cities",
+                                    "type": "integer",
+                                    "default": "Current page."
+                                },
+                                "data": {
+                                    "description": "M\u00e9todo\nList of Cities",
+                                    "type": "array",
+                                    "items": {
+                                        "properties": {
+                                            "name": {
+                                                "description": "M\u00e9todo\nList of Cities",
+                                                "type": "string"
+                                            },
+                                            "format_string": {
+                                                "description": "M\u00e9todo\nList of Cities",
+                                                "type": "string"
+                                            },
+                                            "hash_id": {
+                                                "description": "M\u00e9todo\nList of Cities",
+                                                "type": "string"
+                                            }
+                                        }
+                                    }
+                                },
+                                "first_page_url": {
+                                    "description": "M\u00e9todo\nList of Cities",
+                                    "type": "string"
+                                },
+                                "from": {
+                                    "description": "M\u00e9todo\nList of Cities",
+                                    "type": "integer"
+                                },
+                                "last_page": {
+                                    "description": "M\u00e9todo\nList of Cities",
+                                    "type": "integer"
+                                },
+                                "last_page_url": {
+                                    "description": "M\u00e9todo\nList of Cities",
+                                    "type": "string"
+                                },
+                                "next_page_url": {
+                                    "description": "M\u00e9todo\nList of Cities",
+                                    "type": "string"
+                                },
+                                "path": {
+                                    "description": "M\u00e9todo\nList of Cities",
+                                    "type": "string"
+                                },
+                                "per_page": {
+                                    "description": "M\u00e9todo\nList of Cities",
+                                    "type": "integer"
+                                },
+                                "prev_page_url": {
+                                    "description": "M\u00e9todo\nList of Cities",
+                                    "type": "string"
+                                },
+                                "to": {
+                                    "description": "M\u00e9todo\nList of Cities",
+                                    "type": "integer"
+                                },
+                                "total": {
+                                    "description": "M\u00e9todo\nList of Cities",
+                                    "type": "integer"
+                                }
+                            },
+                            "type": "object"
+                        }
+                    },
+                    "202": {
+                        "description": "Response Object when the per_page parameter is not present. The real response code is: 200",
+                        "schema": {
+                            "properties": {
+                                "message": {
+                                    "description": "M\u00e9todo\nList of Cities",
+                                    "type": "string",
+                                    "default": "User confirmed successfully."
+                                },
+                                "current_page": {
+                                    "description": "M\u00e9todo\nList of Cities",
+                                    "type": "integer",
+                                    "default": "Current page."
+                                },
+                                "data": {
+                                    "description": "M\u00e9todo\nList of Cities",
+                                    "type": "array",
+                                    "items": {
+                                        "properties": {
+                                            "name": {
+                                                "description": "M\u00e9todo\nList of Cities",
+                                                "type": "string"
+                                            },
+                                            "format_string": {
+                                                "description": "M\u00e9todo\nList of Cities",
+                                                "type": "string"
+                                            },
+                                            "hash_id": {
+                                                "description": "M\u00e9todo\nList of Cities",
+                                                "type": "string"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "type": "object"
+                        }
+                    },
+                    "401": {
+                        "description": "Error: Unauthorized",
+                        "schema": {
+                            "properties": {
+                                "message": {
+                                    "description": "M\u00e9todo\nList of Cities",
+                                    "type": "string",
+                                    "default": "Access denied for this client"
+                                }
+                            },
+                            "type": "object"
+                        }
+                    }
+                }
+            }
+        },
+        "/countries": {
+            "get": {
+                "tags": [
+                    "Countries"
+                ],
+                "summary": "User Registration and Login With Facebook",
+                "description": "The list of all countries is displayed.",
+                "parameters": [
+                    {
+                        "$ref": "#/parameters/X-Api-Key"
+                    },
+                    {
+                        "$ref": "#/parameters/X-Client-Id"
+                    },
+                    {
+                        "$ref": "#/parameters/X-localization"
+                    },
+                    {
+                        "$ref": "#/parameters/q"
+                    },
+                    {
+                        "$ref": "#/parameters/per_page"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Response Object when the per_page parameter is present",
+                        "schema": {
+                            "properties": {
+                                "message": {
+                                    "description": "Countries\n\nThe list of all countries is displayed.",
+                                    "type": "string",
+                                    "default": "User confirmed successfully."
+                                },
+                                "current_page": {
+                                    "description": "Countries\n\nThe list of all countries is displayed.",
+                                    "type": "integer",
+                                    "default": "Current page."
+                                },
+                                "data": {
+                                    "description": "Countries\n\nThe list of all countries is displayed.",
+                                    "type": "array",
+                                    "items": {
+                                        "properties": {
+                                            "name": {
+                                                "description": "Countries\n\nThe list of all countries is displayed.",
+                                                "type": "string"
+                                            },
+                                            "iso2": {
+                                                "description": "Countries\n\nThe list of all countries is displayed.",
+                                                "type": "string"
+                                            },
+                                            "iso3": {
+                                                "description": "Countries\n\nThe list of all countries is displayed.",
+                                                "type": "string"
+                                            },
+                                            "iso_num": {
+                                                "description": "Countries\n\nThe list of all countries is displayed.",
+                                                "type": "string"
+                                            },
+                                            "phone_code": {
+                                                "description": "Countries\n\nThe list of all countries is displayed.",
+                                                "type": "string"
+                                            },
+                                            "hash_id": {
+                                                "description": "Countries\n\nThe list of all countries is displayed.",
+                                                "type": "string"
+                                            }
+                                        }
+                                    }
+                                },
+                                "first_page_url": {
+                                    "description": "Countries\n\nThe list of all countries is displayed.",
+                                    "type": "string"
+                                },
+                                "from": {
+                                    "description": "Countries\n\nThe list of all countries is displayed.",
+                                    "type": "integer"
+                                },
+                                "last_page": {
+                                    "description": "Countries\n\nThe list of all countries is displayed.",
+                                    "type": "integer"
+                                },
+                                "last_page_url": {
+                                    "description": "Countries\n\nThe list of all countries is displayed.",
+                                    "type": "string"
+                                },
+                                "next_page_url": {
+                                    "description": "Countries\n\nThe list of all countries is displayed.",
+                                    "type": "string"
+                                },
+                                "path": {
+                                    "description": "Countries\n\nThe list of all countries is displayed.",
+                                    "type": "string"
+                                },
+                                "per_page": {
+                                    "description": "Countries\n\nThe list of all countries is displayed.",
+                                    "type": "integer"
+                                },
+                                "prev_page_url": {
+                                    "description": "Countries\n\nThe list of all countries is displayed.",
+                                    "type": "string"
+                                },
+                                "to": {
+                                    "description": "Countries\n\nThe list of all countries is displayed.",
+                                    "type": "integer"
+                                },
+                                "total": {
+                                    "description": "Countries\n\nThe list of all countries is displayed.",
+                                    "type": "integer"
+                                }
+                            },
+                            "type": "object"
+                        }
+                    },
+                    "202": {
+                        "description": "Response Object when the per_page parameter is not present. The real response code is: 200",
+                        "schema": {
+                            "properties": {
+                                "message": {
+                                    "description": "Countries\n\nThe list of all countries is displayed.",
+                                    "type": "string",
+                                    "default": "User confirmed successfully."
+                                },
+                                "current_page": {
+                                    "description": "Countries\n\nThe list of all countries is displayed.",
+                                    "type": "integer",
+                                    "default": "Current page."
+                                },
+                                "data": {
+                                    "description": "Countries\n\nThe list of all countries is displayed.",
+                                    "type": "array",
+                                    "items": {
+                                        "properties": {
+                                            "name": {
+                                                "description": "Countries\n\nThe list of all countries is displayed.",
+                                                "type": "string"
+                                            },
+                                            "iso2": {
+                                                "description": "Countries\n\nThe list of all countries is displayed.",
+                                                "type": "string"
+                                            },
+                                            "iso3": {
+                                                "description": "Countries\n\nThe list of all countries is displayed.",
+                                                "type": "string"
+                                            },
+                                            "iso_num": {
+                                                "description": "Countries\n\nThe list of all countries is displayed.",
+                                                "type": "string"
+                                            },
+                                            "phone_code": {
+                                                "description": "Countries\n\nThe list of all countries is displayed.",
+                                                "type": "string"
+                                            },
+                                            "hash_id": {
+                                                "description": "Countries\n\nThe list of all countries is displayed.",
+                                                "type": "string"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "type": "object"
+                        }
+                    },
+                    "401": {
+                        "description": "Error: Unauthorized",
+                        "schema": {
+                            "properties": {
+                                "message": {
+                                    "description": "Countries\n\nThe list of all countries is displayed.",
+                                    "type": "string",
+                                    "default": "Access denied for this client"
+                                }
+                            },
+                            "type": "object"
+                        }
+                    }
+                }
+            }
+        },
+        "/users/{user_hash_id}/general-information": {
+            "put": {
+                "tags": [
+                    "Users"
+                ],
+                "summary": "Update the general information of user in storage.",
+                "description": "The parameter hash id must be sent via the path, for example: api.futbolconnect.org/v1/users/{hash_id}/general-information",
+                "parameters": [
+                    {
+                        "$ref": "#/parameters/X-Api-Key"
+                    },
+                    {
+                        "$ref": "#/parameters/X-Client-Id"
+                    },
+                    {
+                        "$ref": "#/parameters/X-localization"
+                    },
+                    {
+                        "$ref": "#/parameters/Authorization"
+                    },
+                    {
+                        "name": "user_hash_id",
+                        "in": "path",
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Response Object",
+                        "schema": {
+                            "properties": {
+                                "message": {
+                                    "description": "Update the general information of user in storage.\n\nThe parameter hash id must be sent via the path, for example: api.futbolconnect.org/v1/users/{hash_id}/general-information",
+                                    "type": "string",
+                                    "default": "User confirmed successfully."
+                                }
+                            },
+                            "type": "object"
+                        }
+                    }
+                }
+            }
+        },
+        "/nationalities": {
+            "get": {
+                "tags": [
+                    "Nationalities"
+                ],
+                "summary": "List of Nationalities",
+                "parameters": [
+                    {
+                        "$ref": "#/parameters/X-Api-Key"
+                    },
+                    {
+                        "$ref": "#/parameters/X-Client-Id"
+                    },
+                    {
+                        "$ref": "#/parameters/X-localization"
+                    },
+                    {
+                        "name": "code",
+                        "in": "query",
+                        "description": "Item code for filtering nationalities",
+                        "required": false,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Response Object"
+                    },
+                    "422": {
+                        "description": "Unprocessable Entity"
+                    }
+                }
+            }
+        },
+        "/users/{has_id}/categories": {
+            "post": {
+                "tags": [
+                    "Users"
+                ],
+                "summary": "Stores preferences selected by the user.",
+                "description": "Ruta para almacenar las preferencias seleccionadas por el usuario.\n<p>Tener en cuenta que el par\u00e1metro \"category_code\" hace referencia al c\u00f3digo de la categor\u00eda y el par\u00e1metro \"hash_id\" es el identificador del usuario que se encuentra dentro del objeto \"user\"</p>",
+                "parameters": [
+                    {
+                        "$ref": "#/parameters/X-Api-Key"
+                    },
+                    {
+                        "$ref": "#/parameters/X-Client-Id"
+                    },
+                    {
+                        "$ref": "#/parameters/X-localization"
+                    },
+                    {
+                        "$ref": "#/parameters/Authorization"
+                    },
+                    {
+                        "name": "hash_id",
+                        "in": "path",
+                        "description": "User Hash Id",
+                        "type": "string"
+                    },
+                    {
+                        "name": "category_code",
+                        "in": "query",
+                        "description": "Code of Category, the format of this param is category_code['value1','value2']",
+                        "required": true,
+                        "type": "array",
+                        "items": [
+                            ""
+                        ]
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Response Object",
+                        "schema": {
+                            "properties": {
+                                "message": {
+                                    "description": "User Preferences\n\nRuta para almacenar las preferencias seleccionadas por el usuario.\n<p>Tener en cuenta que el par\u00e1metro \"category_code\" hace referencia al c\u00f3digo de la categor\u00eda y el par\u00e1metro \"hash_id\" es el identificador del usuario que se encuentra dentro del objeto \"user\"</p>",
+                                    "type": "string",
+                                    "default": "User confirmed successfully."
+                                },
+                                "data": {
+                                    "description": "User Preferences\n\nRuta para almacenar las preferencias seleccionadas por el usuario.\n<p>Tener en cuenta que el par\u00e1metro \"category_code\" hace referencia al c\u00f3digo de la categor\u00eda y el par\u00e1metro \"hash_id\" es el identificador del usuario que se encuentra dentro del objeto \"user\"</p>",
+                                    "type": "array",
+                                    "items": {}
+                                }
+                            },
+                            "type": "object"
+                        }
+                    },
+                    "422": {
+                        "description": "Error: Unprocessable Entity",
+                        "schema": {
+                            "properties": {
+                                "message": {
+                                    "description": "User Preferences\n\nRuta para almacenar las preferencias seleccionadas por el usuario.\n<p>Tener en cuenta que el par\u00e1metro \"category_code\" hace referencia al c\u00f3digo de la categor\u00eda y el par\u00e1metro \"hash_id\" es el identificador del usuario que se encuentra dentro del objeto \"user\"</p>",
+                                    "type": "string",
+                                    "default": "User confirmed successfully."
+                                },
+                                "errors": {
+                                    "description": "User Preferences\n\nRuta para almacenar las preferencias seleccionadas por el usuario.\n<p>Tener en cuenta que el par\u00e1metro \"category_code\" hace referencia al c\u00f3digo de la categor\u00eda y el par\u00e1metro \"hash_id\" es el identificador del usuario que se encuentra dentro del objeto \"user\"</p>",
+                                    "type": "array",
+                                    "items": {
+                                        "properties": {
+                                            "category_code": {
+                                                "description": "User Preferences\n\nRuta para almacenar las preferencias seleccionadas por el usuario.\n<p>Tener en cuenta que el par\u00e1metro \"category_code\" hace referencia al c\u00f3digo de la categor\u00eda y el par\u00e1metro \"hash_id\" es el identificador del usuario que se encuentra dentro del objeto \"user\"</p>",
+                                                "type": "string"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "type": "object"
+                        }
+                    }
+                }
+            }
+        },
+        "users/{user_hash_id}/validation": {
+            "post": {
+                "tags": [
+                    "Users"
+                ],
+                "summary": "M\u00e9todo para validar el c\u00f3digo de verificaci\u00f3n enviado al email o al tel\u00e9fono.",
+                "description": "This route validates the email or phone number given by the User at the time of registration.",
+                "parameters": [
+                    {
+                        "$ref": "#/parameters/X-Api-Key"
+                    },
+                    {
+                        "$ref": "#/parameters/X-Client-Id"
+                    },
+                    {
+                        "$ref": "#/parameters/X-localization"
+                    },
+                    {
+                        "name": "user_hash_id",
+                        "in": "path",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "confirmed_code",
+                        "in": "query",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "When Code is valid",
+                        "schema": {
+                            "properties": {
+                                "message": {
+                                    "description": "Confirmation Code\n\nThis route validates the email or phone number given by the User at the time of registration.",
+                                    "type": "string",
+                                    "default": "You are Logged out."
+                                }
+                            },
+                            "type": "object"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "User": {
+            "properties": {
+                "first_name": {
+                    "description": "The user first name is required for register",
+                    "type": "string"
+                },
+                "last_name": {
+                    "type": "string"
+                },
+                "email": {
+                    "description": "User Email, this property is required when phone is not present.",
+                    "type": "string"
+                },
+                "confirmed_code": {
+                    "type": "string"
+                },
+                "confirmed": {
+                    "description": "True si el usuario ha sido confirmado, False para el caso contrario.<br>Tener en cuenta que en la mayor\u00eda de las rutas se valida si la cuenta esta o no confirmada, retornando un error 401 en caso de no estarlo.",
+                    "type": "bool"
+                },
+                "password": {
+                    "type": "string"
+                },
+                "has_preferences": {
+                    "description": "the value is true when the user contains associated preferences otherwise the value is false.",
+                    "type": "boolean"
+                },
+                "hash_id": {
+                    "description": "String  de 20 caracteres que es el identificador del usuario encriptado",
+                    "type": "string"
+                }
+            }
+        }
+    },
+    "parameters": {
+        "X-Api-Key": {
+            "name": "X-Api-Key",
+            "in": "header",
+            "description": "Api Key, whether mobile or web",
+            "required": true,
+            "type": "string"
+        },
+        "X-Client-Id": {
+            "name": "X-Client-Id",
+            "in": "header",
+            "description": "Client identification, whether mobile or web",
+            "required": true,
+            "type": "string"
+        },
+        "X-localization": {
+            "name": "X-localization",
+            "in": "header",
+            "description": "Iso code of the language for the answers. it can only be 'es' or 'en'",
+            "required": true,
+            "type": "string"
+        },
+        "Authorization": {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Bearer Token Access",
+            "required": true,
+            "type": "string",
+            "default": "Bearer {Token}"
+        },
+        "q": {
+            "name": "q",
+            "in": "query",
+            "description": "Name of the resource to filter",
+            "required": false,
+            "type": "string"
+        },
+        "per_page": {
+            "name": "per_page",
+            "in": "query",
+            "description": "Parameter that defines the number of rows per result",
+            "required": false,
+            "type": "integer",
+            "default": 15
+        }
+    },
+    "tags": [
+        {
+            "name": "Auth",
+            "description": "Authentication and Register"
+        },
+        {
+            "name": "Categories",
+            "description": "Categories List"
+        },
+        {
+            "name": "Cities",
+            "description": "Routes for the Cities"
+        },
+        {
+            "name": "Countries",
+            "description": "Routes for the Countries"
+        },
+        {
+            "name": "Nationalities",
+            "description": "Route for User Preferences"
+        },
+        {
+            "name": "Preferences",
+            "description": "Route for User Preferences"
+        },
+        {
+            "name": "Users",
+            "description": "Users routes"
+        }
+    ]
+}

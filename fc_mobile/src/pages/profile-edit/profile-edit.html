@@ -1,0 +1,60 @@
+<ion-header>
+	<ion-navbar>
+		<ion-title>Editar Perfil</ion-title>
+	</ion-navbar>
+</ion-header>
+<ion-content>
+	<ion-card>
+		<title-common [endIcon]="''" [title]="'Información Básica'"></title-common>
+		<ion-card-content class="card_content-first">
+			<ion-list>
+				<ion-item>
+					<ion-label floating>Nombres</ion-label>
+					<ion-input [(ngModel)]="user.first_name" clearInput type="text"></ion-input>
+				</ion-item>
+				<ion-item>
+					<ion-label floating>Apellidos</ion-label>
+					<ion-input [(ngModel)]="user.last_name" clearInput type="text"></ion-input>
+				</ion-item>
+				<ion-item>
+					<ion-label floating>Nickname</ion-label>
+					<ion-input [(ngModel)]="user.nick_name" clearInput type="text"></ion-input>
+				</ion-item>
+				<ion-item>
+					<ion-label floating>Biografia "({{ 100 - biography?.length }}) de 100"</ion-label>
+					<ion-textarea maxlength="100" [(ngModel)]="biography" clearInput rows="4"></ion-textarea>
+				</ion-item>
+				<ion-item>
+					<button class="btn-save" item-end ion-button no-margin color="primary" large block icon-start (click)="saveBasicInfo()">
+						<ion-icon name="checkmark"></ion-icon>
+						Guardar
+					</button>
+				</ion-item>
+			</ion-list>
+		</ion-card-content>
+	</ion-card>
+	<ion-card>
+		<title-common [endIcon]="''" [title]="'Detalles'"></title-common>
+		<ion-card-content>
+			<ion-list>
+				<ion-item>
+					<ion-label>Cumpleaños</ion-label>
+					<ion-datetime displayFormat="YYYY-MM-DD" pickerFormat="MMM DD, YYYY" [max]="minYear" [(ngModel)]="dateOfbirthday"></ion-datetime>
+				</ion-item>
+				<ion-item (click)="openModalCitiy()">
+					<ion-label color="white">
+						{{ cityOfResident ? cityOfResident : 'Ciudad de Residencia'}}
+					</ion-label>
+					<ion-icon name="create" color="primary" item-end></ion-icon>
+				</ion-item>
+
+				<ion-item>
+					<button class="btn-save" item-end ion-button no-margin color="primary" large block icon-start (click)="saveGeneralInfo()">
+						<ion-icon name="checkmark"></ion-icon>
+						Guardar
+					</button>
+				</ion-item>
+			</ion-list>
+		</ion-card-content>
+	</ion-card>
+</ion-content>

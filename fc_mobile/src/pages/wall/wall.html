@@ -1,0 +1,56 @@
+<ion-content class="tab-content">
+  <ion-refresher (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content pullingText="Pull to refresh" refreshingText="Refreshing...">
+    </ion-refresher-content>
+  </ion-refresher>
+
+  <ion-card class="post-new">
+    <ion-list no-lines>
+      <button ion-item (click)="createNewPost()">
+        <ion-avatar item-start class="avatar-post-new">
+          <img [src]="user.avatar ? user.avatar.avatar_path :'assets/imgs/iconos/fc-group.svg'">
+        </ion-avatar>
+        <div class="thinking">
+          <p>¿En que estas pensando?</p>
+        </div>
+        <button ion-button clear item-end class="add-foto">
+          <ion-icon name="md-images"></ion-icon>
+        </button>
+      </button>
+    </ion-list>
+  </ion-card>
+  <ion-slides slidesPerView="1.5" centeredSlides>
+    <ion-slide *ngFor="let user of suggestion">
+      <ion-card class="sugerencias">
+        <title-common [title]="''" [endIcon]="'md-close'"></title-common>
+        <ion-card-content>
+          <ion-avatar item-start class="pro">
+            <!--<ion-img [src]="user.avatar ? user.avatar.avatar_path : 'assets/imgs/logo.png'" class="img-avatar"></ion-img>-->
+            <ion-img class="img-avatar" [ngStyle]="{'background-image': getUserAvatar(user)}"></ion-img>
+          </ion-avatar>
+          <h1 class="wrapp_text">{{user.full_name}}</h1>
+          <p>Fanatico</p>
+        </ion-card-content>
+        <ion-row class="btn-solicitud">
+          <ion-col col-8>
+            <button ion-button block outline (click)="addUser(user.id)">Enviar Solicitud</button>
+          </ion-col>
+          <ion-col col-4>
+            <button ion-button block outline (click)="chatUser(user.id)">
+              Seguir
+            </button>
+          </ion-col>
+        </ion-row>
+      </ion-card>
+    </ion-slide>
+  </ion-slides>
+  <post *ngFor="let post of posts" [post]="post" [user]="user" (post_deleted)="deletedPost($event)"></post>
+  <ion-card *ngFor="let item of news" class="newsFeed">
+
+    <img [src]="item.enclosure[0].$.url">
+    <div padding>
+      <p>{{item.title[0]}}</p>
+    </div>
+    <!-- <p style="color:white;" padding></p> -->
+  </ion-card>
+</ion-content>

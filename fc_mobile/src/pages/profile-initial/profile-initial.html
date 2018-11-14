@@ -1,0 +1,56 @@
+<ion-content padding>
+	<p>{{ "profile_wizzard.title1" | translate}}</p>
+	<p>{{ "profile_wizzard.description1" | translate}}</p>
+	<ion-item>
+	  <ion-range></ion-range>
+	</ion-item>
+	<ion-slides pager>
+
+	  <ion-slide>
+	    <p>{{ "profile_wizzard.title2" | translate}}</p>
+		<ion-item>
+			<ion-label>{{ "profile_wizzard.country_city" | translate}}</ion-label>
+			<ion-select [(ngModel)]="gaming">
+				<ion-option value="barranquilla">Barranquilla</ion-option>
+			</ion-select>
+		</ion-item>
+		<p>{{ "general.gender" | translate}}</p>
+		<ion-list radio-group>
+		  <ion-item>
+		    <ion-label>{{ "general.female" | translate}}</ion-label>
+		    <ion-radio checked="true" value="female"></ion-radio>
+		  </ion-item>
+
+		  <ion-item>
+		    <ion-label>{{ "general.male" | translate}}</ion-label>
+		    <ion-radio value="male"></ion-radio>
+		  </ion-item>
+		</ion-list>
+		<p>{{ "profile_wizzard.title3" | translate}}</p>
+		<p>{{ "profile_wizzard.description3" | translate}}</p>
+		<ion-item>
+	    	<ion-label floating>{{ "profile_wizzard.favorites_hint" | translate}}</ion-label>
+	    	<ion-input ></ion-input>
+	  	</ion-item>
+	  </ion-slide>
+
+	  <ion-slide>
+	    <p>{{ "profile_wizzard.description4" | translate}}</p>
+	    <p>{{ "profile_wizzard.description5" | translate}}</p>
+	    <p>{{ "profile_wizzard.title4" | translate}}</p>
+	    <ion-grid>
+			<ion-row>
+				<ion-col col-12 *ngFor="let item of interest">
+					<ion-item>
+					  <ion-label>{{ ('profile_wizzard.interest.' + item.title) | translate }}</ion-label>
+					  <ion-toggle></ion-toggle>
+					</ion-item>
+				</ion-col>
+			</ion-row>
+		</ion-grid>
+	  </ion-slide>
+
+	</ion-slides>
+	
+  	<button ion-button block>{{ "general.continue" | translate}}</button>
+</ion-content>

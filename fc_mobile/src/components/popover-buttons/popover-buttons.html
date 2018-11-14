@@ -1,0 +1,12 @@
+
+<div>
+	<button *ngFor="let button of buttons" ion-button block  (click)="execute(button.event)" class="options">{{button.text}}
+	</button>
+</div>
+ <!--<div class="options">
+	<ion-list>
+		<ion-item  *ngFor="let button of buttons" (click)="execute(button.event)">
+			{{button.text}}
+		</ion-item>
+	</ion-list>
+</div>-->

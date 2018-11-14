@@ -1,0 +1,59 @@
+{
+  "titles": {
+    "follow_title": "Seguidores"
+  },
+  "app_name": "FutbolConnect",
+  "general": {
+    "gender": "Genero",
+    "male": "Masculino",
+    "female": "Femenino",
+    "continue": "Continuar"
+  },
+  "general_gender": "Genero",
+  "general_male": "Masculino",
+  "general_female": "Femenino",
+  "home_slide1_1": "Trae tu talento a ",
+  "home_slide1_2": " y compartelo con el mundo",
+  "home_slide2_1": "Información",
+  "home_slide2_2": " sobre equipos, jugadores y ",
+  "home_slide2_3": "torneos destacados",
+  "home_slide2_4": "del futbol local e internacional",
+  "home_slide3_1": "pasión",
+  "home_slide3_2": " en tu corazón, únete y conecta con el mundo del ",
+  "home_slide3_3": "fútbol",
+  "home_login": "Iniciar sesíon",
+  "home_register": "Registrarse",
+  "profile_wizzard": {
+    "title1": "Ten muchas mas posibilidades de conectar con otros",
+    "description1": "Entre mas completo y activo sea tu pefil apareceras en las busquedas de entrenadores, managers, jugadores, etc.",
+    "title2": "Llena estos campos con tu Información personal:",
+    "country_city": "Pais Ciudad",
+    "title3": "No aguantamos la curiosidad ¿Cual es tu equipo favorito?",
+    "description3": "Puedes agregar varios equipos",
+    "favorites_hint": "Mis equipos",
+    "description4": "¡Que el ritmo no pare!",
+    "description5": "Con esta informacion podemos brindarte informacion con mucha mas precicion",
+    "title4": "Selecciona el tipo de contenido que es de tu interes:",
+    "interest": {
+      "news": "Noticias",
+      "transfers": "Traspaso",
+      "proteams": "Equipos Profesionales",
+      "tournaments": "Torneos Amateurs",
+      "fans": "Hinchadas",
+      "uniforms": "Actualidad de Uniformes",
+      "education": "Educacion y Capacitacion",
+      "marketing": "Marketing Deportivo",
+      "futfem": "Futbol Femenino"
+    }
+  },
+  "profile_initial_title1": "Ten muchas mas posibilidades de conectar con otros",
+  "profile_initial_description1": "Entre mas completo y activo sea tu pefil apareceras en las busquedas de entrenadores, managers, jugadores, etc.",
+  "profile_initial_title2": "Llena estos campos con tu Información personal:",
+  "profile_initial_country_city": "Pais Ciudad",
+  "profile_initial_title3": "No aguantamos la curiosidad ¿Cual es tu equipo favorito?",
+  "profile_initial_description3": "Puedes agregar varios equipos",
+  "profile_initial_favorites_hint": "Mis equipos",
+  "profile": {
+    "test": "test"
+  }
+}

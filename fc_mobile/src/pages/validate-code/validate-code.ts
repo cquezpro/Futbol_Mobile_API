@@ -1,0 +1,49 @@
+import {Component} from '@angular/core';
+import {IonicPage, NavController, NavParams} from 'ionic-angular';
+
+import {AuthProvider} from '../../providers/auth/auth';
+import {UtilsProvider} from '../../providers/utils/utils';
+
+import {LandingPage} from '../landing/landing';
+
+/**
+ * Generated class for the ValidateCodePage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+
+@IonicPage()
+@Component({
+    selector: 'page-validate-code',
+    templateUrl: 'validate-code.html',
+})
+export class ValidateCodePage {
+    private hash: any;
+    private code: any;
+
+    constructor(
+        public navCtrl: NavController,
+        public navParams: NavParams,
+        public auth: AuthProvider,
+        private utils: UtilsProvider) {
+        this.hash = this.navParams.get('hash');
+        if (!this.hash) {
+            this.navCtrl.pop();
+        }
+    }
+
+    validate() {
+        let t = this;
+        this.utils.rest('users/' + this.hash + '/validation', 'post', true,
+            {confirmed_code: t.code}, (resp) => {
+                t.auth.setCurrentUser(resp.user);
+                t.auth.setCurrentToken(resp.token);
+                t.navCtrl.push(LandingPage);
+            }, undefined);
+    }
+
+    goBack() {
+        this.navCtrl.pop();
+    }
+}

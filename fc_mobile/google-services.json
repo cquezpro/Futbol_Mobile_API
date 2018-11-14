@@ -1,0 +1,117 @@
+{
+  "project_info": {
+    "project_number": "1081915633864",
+    "firebase_url": "https://futbolconnect-23a89.firebaseio.com",
+    "project_id": "futbolconnect-23a89",
+    "storage_bucket": "futbolconnect-23a89.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081915633864:android:f55de3d8468272b6",
+        "android_client_info": {
+          "package_name": "com.futbolconnect.android.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1081915633864-3k9bpkb2hsf3slrm07ojcs9qo5l059mu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.futbolconnect.android.app",
+            "certificate_hash": "f9aa73026f7b5994625bc6e4c9ad52d15f00bd40"
+          }
+        },
+        {
+          "client_id": "1081915633864-2c38j4unnd8fglh455oipa0pq822riqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJA4OYBfGX-fOtbwHgxxy7GAjEcZdt5Ko"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1081915633864-2c38j4unnd8fglh455oipa0pq822riqv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081915633864:android:869d603d993a4b14",
+        "android_client_info": {
+          "package_name": "com.futbolconnect.android.app.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1081915633864-2c38j4unnd8fglh455oipa0pq822riqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJA4OYBfGX-fOtbwHgxxy7GAjEcZdt5Ko"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081915633864:android:8be4187439e9d197",
+        "android_client_info": {
+          "package_name": "com.futbolconnect.android.app.prod"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1081915633864-2c38j4unnd8fglh455oipa0pq822riqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJA4OYBfGX-fOtbwHgxxy7GAjEcZdt5Ko"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

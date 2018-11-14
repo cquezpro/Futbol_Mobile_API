@@ -1,0 +1,88 @@
+page-wall {
+  ion-slides {
+    height: auto;
+  }
+  ion-slide {
+    display: block !important;
+    align-items: unset !important;
+  }
+  ion-fab {
+    bottom: 60px !important;
+  }
+  .newsFeed {
+    p {
+      color: white;
+    }
+  }
+}
+
+.post-new{
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  top: 13px;
+  .avatar-post-new{
+    width: 30px;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    left: 0px;
+    img{
+      position: relative;
+      left: 10px;
+      top: 3px;
+      width: 90%;
+      height: 90%;
+    }
+  }
+  .thinking{
+    background-color: #272727;
+    width: 100%;
+    height: 30px;
+    border-radius: 30px;
+    text-align: center;
+    margin: 0 auto;
+      p{
+        position: relative;
+        top: 7px;
+      }
+ }
+  .add-foto{
+    width: 30px;
+    height: 30px;
+    font-size: 28px;
+  }
+}
+
+
+.sugerencias {
+  width: 230px;
+  height: 296px;
+  position: relative;
+  border-radius: 5px;
+
+  .pro {
+    width: 128px;
+    height: 128px;
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: 100%;
+    text-align: center;
+    .img-avatar {
+      width: 128px;
+      height: 128px;
+      background-image: url(../../assets/imgs/iconos/fc-group.svg);
+      background-position: center;
+      background-size: cover;
+    }
+  }
+
+  .btn-solicitud {
+    position: relative;
+    bottom: 17px;
+    button {
+      border-radius: 2px;
+    }
+  }
+}

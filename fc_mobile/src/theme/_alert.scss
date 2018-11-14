@@ -1,0 +1,26 @@
+ion-alert{
+  .alert-wrapper {
+    background-color: color($colors, gray-mate) !important;
+    color: color($colors, white);
+
+    .alert-message{
+      color: #ffffff;
+       overflow: hidden;
+    }
+  }
+  .alert-tappable{
+    background: #585858;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid color($colors, white);
+  }
+  .alert-radio-group, .alert-md .alert-checkbox-group {
+    padding: 5px 14px 5px 5px;
+    border-top: none !important;
+    border-bottom: none !important;
+  }
+  .alert-radio-label{
+    color: color($colors, white) !important;
+  }
+
+}

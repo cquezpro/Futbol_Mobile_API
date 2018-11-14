@@ -1,0 +1,93 @@
+page-home {
+    @import "../../theme/bg&logo";
+    .top-banner{
+        overflow: hidden;
+        border-radius: 50%/5%;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        position:relative;
+        max-height: 70vh;
+
+    }
+
+    .button_container{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        height: 30vh;
+
+        .iniciar_sesion,.registrar_usuario{
+            max-width: 225px;
+            width:100%;
+            max-height: 40px;
+            margin-top: 10px;
+            margin-bottom: 0;
+        }
+    }
+    .slide__content{
+        height:100%;
+        width:100%;
+        background: rgba(#000,0.5);
+        display:flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        align-items: center;
+        &__text{
+            color:#fff;
+            font-size: 26px;
+            margin-top:58px;
+            position:absolute;
+            line-height:28px;
+            max-width: 250px;
+            margin-bottom: auto;
+
+        }
+    }
+    .slide__image{
+        img{
+            min-height: 70vh;
+            width: auto;
+            object-fit: cover;
+        }
+
+    }
+    .swiper-pagination-bullets{
+        top: 65vh !important;
+
+    }
+    .swiper-pagination-bullet{
+
+        border: 1px solid #fff;
+        opacity:.8;
+        background: transparent;
+
+    }
+    .swiper-pagination-bullet-active{
+        background-color: #fff;
+    }
+
+
+
+    .overlay{
+        position:absolute;
+        height:100%;
+        width:100%;
+        top:0;
+        background-color: rgba(#000,0.5);
+    }
+
+    .button{
+
+        height: 61.4px;
+        font-size: 13.4px;
+        border-radius: 0;
+        margin: 0px;
+        border: 0px;
+    }
+    picture.bg-img img{
+        filter: none;
+    }
+}
+
+

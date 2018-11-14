@@ -1,0 +1,72 @@
+// http://ionicframework.com/docs/theming/
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+@import "../theme/input";
+@import "../theme/button";
+@import "../theme/bg&logo";
+@import "../theme/toolbar";
+@import "../theme/tabs";
+@import "../theme/card";
+@import "../theme/page";
+@import "../theme/slide";
+@import "../theme/badge";
+@import "../theme/alert";
+
+.full-width {
+  width: 100%;
+}
+
+.item {
+  background-color: transparent;
+  padding-left: 0px;
+}
+.toast-message {
+  white-space: pre-line;
+}
+
+.alert-message,
+.alert-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.toast-message {
+  position: relative;
+  background-color: #f36b2a;
+  text-align: center;
+  &:before {
+    content: "";
+    display: block;
+    background-image: url("../assets/icon/alert.svg");
+    position: relative;
+    justify-self: center;
+    background-size: 40px 40px;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    mask-image: url("../assets/icon/alert.svg");
+    margin: auto;
+    margin-bottom: 5px;
+  }
+}
+.input-wrapper .label.label {
+  color: color($colors, white);
+}
+
+.datetime-text {
+  color: #f36b2a;
+}

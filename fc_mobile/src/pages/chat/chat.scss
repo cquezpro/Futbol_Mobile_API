@@ -1,0 +1,16 @@
+page-chat {
+	.scroll-content{
+		ion-list .item {
+			padding-left: 10px;
+			margin-bottom: 5px;
+		}
+		.item-divider-md{
+			background-color: inherit !important;
+		}
+	}
+}
+
+.chats{
+	position: relative;
+	top: 15px;
+}

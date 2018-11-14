@@ -1,0 +1,7 @@
+{
+  "name": "preregister_fc",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

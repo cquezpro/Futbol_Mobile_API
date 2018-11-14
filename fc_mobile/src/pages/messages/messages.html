@@ -1,0 +1,42 @@
+<ion-header>
+	<ion-navbar>
+		<ion-title>
+			<div *ngFor="let user of users">
+				<!-- <ion-avatar item-start>
+					<ion-img [src]="user.avatar ? user.avatar.avatar_path : 'assets/imgs/iconos/fc-group.svg'"></ion-img>
+				</ion-avatar> -->
+				{{ user.full_name }}
+			</div>
+		</ion-title>
+	</ion-navbar>
+</ion-header>
+<ion-content>
+	<ion-list>
+		<div class="message-wrap" #scrollMe [scrollTop]="scrollMe.scrollHeight">
+			<div *ngFor="let msg of messages" class="message" [class.left]="!msg.isSender" [class.right]="msg.isSender">
+				<img class="user-img" [src]="msg.from.avatar ? msg.from.avatar.avatar_path :'assets/imgs/iconos/fc-group.svg'" alt="">
+				<div class="msg-detail">
+					<!-- <div class="msg-info">
+						<p>
+							{{msg.from.full_name}}&nbsp;&nbsp;&nbsp;{{msg.created_at_diff}}</p>
+					</div> -->
+					<div class="msg-content">
+						<span class="triangle"></span>
+						<p class="line-breaker ">{{msg.body}}</p>
+						<ion-spinner name="circles" *ngIf="msg.status === 'pending'"></ion-spinner>
+					</div>
+				</div>
+			</div>
+		</div>
+	</ion-list>
+</ion-content>
+
+<ion-footer>
+	<ion-item>
+		<ion-input (keyup.enter)="send()" type="text" value="" placeholder="Escribe tu mensaje" [(ngModel)]="msn">
+		</ion-input>
+		<button color="light-gray" item-end clear ion-button (click)="send()" [disabled]="!msn">
+			<ion-icon name="send"></ion-icon>
+		</button>
+	</ion-item>
+</ion-footer>

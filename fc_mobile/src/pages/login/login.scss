@@ -1,0 +1,141 @@
+// page-login {
+//     @import "../../theme/bg&logo";
+//     .gradient{
+//         // background-image: linear-gradient(to bottom, #000000, #000, #f7f7f7, #ffffff, #ffffff);
+//         background-color:black;
+//     }
+//     .top-banner{
+//         overflow: hidden;
+//         border-radius: 50%/5%;
+//         border-top-left-radius: 0;
+//         border-top-right-radius: 0;
+//         position: absolute;
+//         height: 60vh;
+//         width:100%;
+//         z-index: -1;
+
+//     }
+//     .login-banner{
+//         margin-top:20px;
+//         text-align: center;
+//         img{
+//             max-width: 259px;
+//         }
+
+//     }
+//     .login-container{
+//         display:flex;
+//         flex-direction:column;
+//         justify-content:center;
+//         align-items:center;
+//         padding: 5px 25px;
+//         background-color: #fff;
+//         margin-right:16px;
+//         margin-left:16px;
+//         border-radius: 15px;
+//         box-shadow: 0px 0px 5px 0px #888888;
+//         h3{
+//             color:#707070;
+//         }
+//         .login-form{
+//             width:100%;
+//             ion-label,ion-input{
+//                 color:#777;
+//                 font-size: 14px;
+//             }
+//             .item-inner{
+//                 //  border-bottom:none !important;
+//             }
+//         }
+//     }
+
+//     .terms{
+//         font-size: 10px;
+//         color: #bbb;
+//         a{
+//             color:#f36b2a;
+//         }
+//     }
+//     .facebook-button,.login-button,.register-button{
+//         width: 100%;
+//         padding: 5px 15px;
+//         font-size: 15px !important;
+//         margin: 5px 0;
+//         color: #fff;
+//         border: none;
+//         align-self: center;
+//         width: 100%;
+//         height: 40px;
+//         text-transform: unset;
+
+//     }
+
+//     .scroll-content {
+//         padding-bottom: 0 !important;
+//      }
+
+//     .footer-text{
+//         position:absolute;
+//         bottom: 20px ;
+//     }
+
+//     .forgotten-password{
+//         display:flex;
+//         justify-content: flex-end;
+//         &__link{
+//             color: #bbbbbb;
+//             font-size: 13px;
+//             letter-spacing: 0.5px;
+//         }
+
+//     }
+//     .aditional-info{
+//         margin-top: 30px;
+//         text-align: center;
+//         font-size: 15px;
+//         color:#fff;
+//         line-height: 20px;
+//         margin-bottom: 20px;
+//         p{
+//         margin-bottom:0;
+//         }
+//         a{
+//             font-weight: bold;
+//             text-decoration: none;
+//         }
+//     }
+//     .toolbar-background{
+//         background: none;
+//     }
+//     .toolbar-title, .toolbar-title{
+//         display: none;
+//     }
+//     .back-button{
+//         color:#fff;
+//         z-index: 999;
+//     }
+// }
+.button-fb{
+	background-color: #3c5a98;
+	font-size: 18px;
+    height: 48px;
+    border-radius: 3px;
+	ion-icon{
+		position: relative;
+		right: 10px;
+	}
+	p{
+		position: relative;
+
+	}
+}
+.aditional-info{
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	a{
+		color: white;
+		text-decoration: none;
+	}
+}
+::placeholder { color: blue; }

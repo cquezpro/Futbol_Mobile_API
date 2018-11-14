@@ -1,0 +1,70 @@
+ @import "variables";
+$header-bar-width:75px;
+$header-bar-height:38px;
+.toolbar{
+  
+  .toolbar-background {
+    border-color: #b2b2b2;
+    background: color($colors, gray-mate);
+  }
+  //&:before{
+    //content: '';
+    //background-image: url(../assets/imgs/fc-logo/Logo.png);
+    //width: 75px;
+    //height: 30px;
+    //background-size: 75px 30px;
+    //background-repeat: no-repeat;
+    //background-position: center;
+  //}
+}
+title-common{
+  .toolbar{
+    text-align: center;
+
+    ion-title{
+
+      position: absolute;
+      width: 100%;
+      right: 0;
+      top: 7px;
+    }
+    .toolbar-title{
+      color: color($colors,white);
+    }
+    &:before{
+      content: '';
+      background: none;
+    }
+    .skew-bar{
+      position: absolute;
+      left: -30px;
+      top: 0;
+      width: $header-bar-width;
+      background-color: rgba(color($colors, orange),.8);
+      -webkit-transform: skew(-30deg, 0deg);
+      transform: skew(-30deg, 0deg);
+      height: $header-bar-height;
+      z-index: 0;
+      &:before{
+        content: '';
+        background-color: rgba(color($colors, orange),.6);
+        position: absolute;
+        left: 20px;
+        top: 0;
+        width: 90px;
+        height: $header-bar-height;
+      }
+      &:after {
+        content: '';
+        background: none;
+        background-color: rgba(color($colors, orange),.4);
+        position: absolute;
+        left: 70px;
+        top: 0;
+        width: $header-bar-width;
+        height: $header-bar-height;
+      }
+
+    }
+  }
+} 
